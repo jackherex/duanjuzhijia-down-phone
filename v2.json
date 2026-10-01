@@ -1,28 +1,28 @@
 {
-  "version": "1.0.18+19",
-  "versionName": "1.0.18",
-  "build": 19,
-  "versionCode": 10018,
+  "version": "1.0.19+20",
+  "versionName": "1.0.19",
+  "build": 20,
+  "versionCode": 10019,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T09:43:40Z",
-  "notes": "**手机版 1.0.18+19**\n\n- 修：**换集（预加载下一集）后卡顿** —— 上一个版本给电视盒子加的「帧率诊断」在手机上也在跑，每次换集后会轮询 3 秒，期间画面一顿一顿的。现在手机版不再跑这份诊断。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.18-19",
+  "publishedAt": "2026-10-01T10:29:32Z",
+  "notes": "**手机版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着（本来是用来盖住换集的瞬间），这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 修：**切集时进度条会自己弹出来** —— 同一个原因带来的连带现象，一并消失。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.19-20",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.18+19-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.19+20-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk"
       ],
-      "size": 31605530,
-      "sha256": "8300bc6fe081cc37b9f7188b7d9be6a83dfe7c539603a8d394ce12eb713f7ecd",
-      "notes": "**手机版 1.0.18+19**\n\n- 修：**换集（预加载下一集）后卡顿** —— 上一个版本给电视盒子加的「帧率诊断」在手机上也在跑，每次换集后会轮询 3 秒，期间画面一顿一顿的。现在手机版不再跑这份诊断。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响"
+      "size": 31540650,
+      "sha256": "150a80c8b38f1ec1282430ac036d87ffd6b1ca73833b79ce509d79dc3bdd9e8b",
+      "notes": "**手机版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着（本来是用来盖住换集的瞬间），这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 修：**切集时进度条会自己弹出来** —— 同一个原因带来的连带现象，一并消失。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响"
     }
   ]
 }
