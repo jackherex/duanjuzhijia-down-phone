@@ -1,28 +1,28 @@
 {
-  "version": "1.0.27+28",
-  "versionName": "1.0.27",
-  "build": 28,
-  "versionCode": 10027,
+  "version": "1.0.28+29",
+  "versionName": "1.0.28",
+  "build": 29,
+  "versionCode": 10028,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-02T09:51:27Z",
-  "notes": "**手机版 1.0.27+28**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.27-28",
+  "publishedAt": "2026-10-02T11:23:24Z",
+  "notes": "**手机版 1.0.28+29**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。手机约了下季，电脑打开同步就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.28-29",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.27+28-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.28+29-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.28-29/duanjuzhijia2-1.0.28%2B29-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.28-29/duanjuzhijia2-1.0.28%2B29-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.28-29/duanjuzhijia2-1.0.28%2B29-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.28-29/duanjuzhijia2-1.0.28%2B29-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.28-29/duanjuzhijia2-1.0.28%2B29-arm64-v8a.apk"
       ],
-      "size": 31631014,
-      "sha256": "b47a4f18799decfc2006552fb2dc90011cb119a2ef0f0ea1433f77608e7c2d9c",
-      "notes": "**手机版 1.0.27+28**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31637338,
+      "sha256": "0bbc53320bbdc28b49b25dee7bc607b6ea42011a1ea2287f78300afc101deafb",
+      "notes": "**手机版 1.0.28+29**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。手机约了下季，电脑打开同步就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
