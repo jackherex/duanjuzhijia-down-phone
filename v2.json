@@ -1,28 +1,28 @@
 {
-  "version": "1.0.19+20",
-  "versionName": "1.0.19",
-  "build": 20,
-  "versionCode": 10019,
+  "version": "1.0.27+28",
+  "versionName": "1.0.27",
+  "build": 28,
+  "versionCode": 10027,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T10:29:32Z",
-  "notes": "**手机版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着（本来是用来盖住换集的瞬间），这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 修：**切集时进度条会自己弹出来** —— 同一个原因带来的连带现象，一并消失。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.19-20",
+  "publishedAt": "2026-10-02T09:51:27Z",
+  "notes": "**手机版 1.0.27+28**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.27-28",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.19+20-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.27+28-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-arm64-v8a.apk"
       ],
-      "size": 31540650,
-      "sha256": "150a80c8b38f1ec1282430ac036d87ffd6b1ca73833b79ce509d79dc3bdd9e8b",
-      "notes": "**手机版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着（本来是用来盖住换集的瞬间），这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 修：**切集时进度条会自己弹出来** —— 同一个原因带来的连带现象，一并消失。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、互不影响"
+      "size": 31631014,
+      "sha256": "b47a4f18799decfc2006552fb2dc90011cb119a2ef0f0ea1433f77608e7c2d9c",
+      "notes": "**手机版 1.0.27+28**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 换集那一瞬间的闪黑做了兜底，观感更连贯。\n- 改：更新走手机版自己的下载通道，与电视版 / 电脑版分开，各自更新、版本号互不影响\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
