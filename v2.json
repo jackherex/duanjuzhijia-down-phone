@@ -1,28 +1,28 @@
 {
-  "version": "1.0.42+43",
-  "versionName": "1.0.42",
-  "build": 43,
-  "versionCode": 10042,
+  "version": "1.0.43+44",
+  "versionName": "1.0.43",
+  "build": 44,
+  "versionCode": 10043,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T13:17:13Z",
-  "notes": "**手机版 1.0.42+43**\n\n- 改：下载任务的文字不再挤成一整行 —— 状态与画质一行、体积与弹幕一行，出错信息单独一行并标红\n- 改：下载中的进度条加粗并显示百分比（原来只有一条细线，看不出还差多少）\n- 改：合集那行的「N 项失败」标红加粗，一屏里能一眼扫到\n- 新：点某一集开始播放、拖动播放进度条时，各有一次轻触反馈\n\n> 未做真机运行验证，有问题请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.42-43",
+  "publishedAt": "2026-10-03T14:57:13Z",
+  "notes": "**手机版 1.0.43+44**\n\n- 修：看**已下载的剧集**时，一集播完自动接下一集，画面中间会闪一下进度条（`0:00 / 0:00`）—— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.43-44",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.42+43-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.43+44-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk"
       ],
-      "size": 31571446,
-      "sha256": "367b331dc7d7d8eb55b88a902a25b96dcbdd754dec52f5571ae693c3eb97d896",
-      "notes": "**手机版 1.0.42+43**\n\n- 改：下载任务的文字不再挤成一整行 —— 状态与画质一行、体积与弹幕一行，出错信息单独一行并标红\n- 改：下载中的进度条加粗并显示百分比（原来只有一条细线，看不出还差多少）\n- 改：合集那行的「N 项失败」标红加粗，一屏里能一眼扫到\n- 新：点某一集开始播放、拖动播放进度条时，各有一次轻触反馈\n\n> 未做真机运行验证，有问题请反馈现象。"
+      "size": 31571562,
+      "sha256": "6047e7b426555725d15c36c3f0d68179d04722f7d7c762c86997cee6b7d70968",
+      "notes": "**手机版 1.0.43+44**\n\n- 修：看**已下载的剧集**时，一集播完自动接下一集，画面中间会闪一下进度条（`0:00 / 0:00`）—— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
