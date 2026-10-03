@@ -1,28 +1,28 @@
 {
-  "version": "1.0.37+38",
-  "versionName": "1.0.37",
-  "build": 38,
-  "versionCode": 10037,
+  "version": "1.0.39+40",
+  "versionName": "1.0.39",
+  "build": 40,
+  "versionCode": 10039,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T09:18:10Z",
-  "notes": "**手机版 1.0.37+38**\n\n- 新：**「已看完」单独成页** —— 以前看完的剧全堆在追剧列表里，越攒越多，真正还在追的那几部反被淹掉。现在它们挪到专门的页面，入口在追剧页标题栏那枚「已看完 N 部」（和「已预约 N 部」并排）。追剧页只留还有事的。\n- 新：**已看完页按系列分组** —— 同一部剧的几季合成**一张卡片**，卡内按第一季、第二季依次列出，点哪一季进哪一季。剧名会自动去掉「第二季」这类后缀当系列名；单季剧就是一行，不摆空架子。系列之间按**最近看完**排序。\n- 改：**追剧页的筛选去掉了「已看」** —— 这一档现在已经没有内容了（都挪去专门页面），留着点了是空列表。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.37-38",
+  "publishedAt": "2026-10-03T10:16:27Z",
+  "notes": "**手机版 1.0.39+40**\n\n- 新：「已看完」的剧单独成页：入口在追剧页右上角，追剧列表不再被看完的剧挤满\n- 新：「已看完」页按剧集分组：同一部剧的几季合成一张卡，第一季、第二季依次列出\n- 改：十几个页面的顶栏统一成同一套样式，进出页面不再\"跳一下\"\n- 改：播放设置页改成分组卡片，一眼看出哪几项是一组\n- 修：分类页（全部漫剧、全部真人剧…）整体偏左\n- 修：已看完卡片上的集数显示不全\n- 修：站源没报集数时会显示「共 0 集」\n- 修：几处操作没有震动（长按封面、添加预约、收藏 / 想看 / 待看）\n\n> 未做真机运行验证，有问题请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.39-40",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.37+38-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.39+40-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.39-40/duanjuzhijia2-1.0.39%2B40-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.39-40/duanjuzhijia2-1.0.39%2B40-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.39-40/duanjuzhijia2-1.0.39%2B40-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.39-40/duanjuzhijia2-1.0.39%2B40-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.39-40/duanjuzhijia2-1.0.39%2B40-arm64-v8a.apk"
       ],
-      "size": 31566162,
-      "sha256": "620e8ef2d6044c0335aefdde3bf1a43dbf1a8615d2a75e338d4624438155d3e4",
-      "notes": "**手机版 1.0.37+38**\n\n- 新：**「已看完」单独成页** —— 以前看完的剧全堆在追剧列表里，越攒越多，真正还在追的那几部反被淹掉。现在它们挪到专门的页面，入口在追剧页标题栏那枚「已看完 N 部」（和「已预约 N 部」并排）。追剧页只留还有事的。\n- 新：**已看完页按系列分组** —— 同一部剧的几季合成**一张卡片**，卡内按第一季、第二季依次列出，点哪一季进哪一季。剧名会自动去掉「第二季」这类后缀当系列名；单季剧就是一行，不摆空架子。系列之间按**最近看完**排序。\n- 改：**追剧页的筛选去掉了「已看」** —— 这一档现在已经没有内容了（都挪去专门页面），留着点了是空列表。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31570826,
+      "sha256": "92f6ad98c966dc2820b51ca7467c9024332902dcd50bef8046229ced3a413154",
+      "notes": "**手机版 1.0.39+40**\n\n- 新：「已看完」的剧单独成页：入口在追剧页右上角，追剧列表不再被看完的剧挤满\n- 新：「已看完」页按剧集分组：同一部剧的几季合成一张卡，第一季、第二季依次列出\n- 改：十几个页面的顶栏统一成同一套样式，进出页面不再\"跳一下\"\n- 改：播放设置页改成分组卡片，一眼看出哪几项是一组\n- 修：分类页（全部漫剧、全部真人剧…）整体偏左\n- 修：已看完卡片上的集数显示不全\n- 修：站源没报集数时会显示「共 0 集」\n- 修：几处操作没有震动（长按封面、添加预约、收藏 / 想看 / 待看）\n\n> 未做真机运行验证，有问题请反馈现象。"
     }
   ]
 }
