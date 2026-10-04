@@ -1,28 +1,28 @@
 {
-  "version": "1.0.43+44",
-  "versionName": "1.0.43",
-  "build": 44,
-  "versionCode": 10043,
+  "version": "1.0.44+45",
+  "versionName": "1.0.44",
+  "build": 45,
+  "versionCode": 10044,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T14:57:13Z",
-  "notes": "**手机版 1.0.43+44**\n\n- 修：看**已下载的剧集**时，一集播完自动接下一集，画面中间会闪一下进度条（`0:00 / 0:00`）—— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.43-44",
+  "publishedAt": "2026-10-04T12:39:45Z",
+  "notes": "**手机版 1.0.44+45**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 修：看已下载的剧集时，一集播完自动接下一集，画面中间会闪一下进度条 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.44-45",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.43+44-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.44+45-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.43-44/duanjuzhijia2-1.0.43%2B44-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-arm64-v8a.apk"
       ],
-      "size": 31571562,
-      "sha256": "6047e7b426555725d15c36c3f0d68179d04722f7d7c762c86997cee6b7d70968",
-      "notes": "**手机版 1.0.43+44**\n\n- 修：看**已下载的剧集**时，一集播完自动接下一集，画面中间会闪一下进度条（`0:00 / 0:00`）—— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31572914,
+      "sha256": "891824b0571d83205139f9d2639451cd4f1b2d2f463ce32a1c8124371dd38636",
+      "notes": "**手机版 1.0.44+45**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 修：看已下载的剧集时，一集播完自动接下一集，画面中间会闪一下进度条 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
