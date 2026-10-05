@@ -1,28 +1,28 @@
 {
-  "version": "1.0.48+49",
-  "versionName": "1.0.48",
-  "build": 49,
-  "versionCode": 10048,
+  "version": "1.0.51+52",
+  "versionName": "1.0.51",
+  "build": 52,
+  "versionCode": 10051,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-05T11:07:55Z",
-  "notes": "**手机版 1.0.48+49**\n\n- 修：退出播放、关掉应用、甚至划掉后台之后，那条「正在播放」的常驻通知还一直挂着 —— 现在会跟着一起收掉\n- 修：小窗（后台小窗）里一集播完停在下一集的开头不动，要进软件点一下才播 —— 现在会自动接着播\n- 修：播放器里调过的亮度和音量，退出再进去又变回原样 —— 现在能真正记住了\n- 修：退出播放器后亮度没跟着还回去 —— 现在一回到主页就是系统原来的亮度\n- 新：播放器里上下滑调亮度和音量，现在直接调系统的，和音量键完全一致；退出播放器还回原来的\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.48-49",
+  "publishedAt": "2026-10-05T13:24:43Z",
+  "notes": "**手机版 1.0.51+52**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：退出播放、关掉应用、甚至划掉后台之后，那条「正在播放」的常驻通知还一直挂着 —— 现在会跟着一起收掉\n- 修：小窗里一集播完停在下一集开头不动；播放器里调过的亮度和音量退出后没还回去 —— 都已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.51-52",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.48+49-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.48-49/duanjuzhijia2-1.0.48%2B49-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.51+52-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.51-52/duanjuzhijia2-1.0.51%2B52-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.48-49/duanjuzhijia2-1.0.48%2B49-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.48-49/duanjuzhijia2-1.0.48%2B49-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.48-49/duanjuzhijia2-1.0.48%2B49-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.48-49/duanjuzhijia2-1.0.48%2B49-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.51-52/duanjuzhijia2-1.0.51%2B52-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.51-52/duanjuzhijia2-1.0.51%2B52-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.51-52/duanjuzhijia2-1.0.51%2B52-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.51-52/duanjuzhijia2-1.0.51%2B52-arm64-v8a.apk"
       ],
-      "size": 31571770,
-      "sha256": "3c7beb5c92da1de3c3292f6b553ceba2566b5a0aa478b1021c55e9607d3d764d",
-      "notes": "**手机版 1.0.48+49**\n\n- 修：退出播放、关掉应用、甚至划掉后台之后，那条「正在播放」的常驻通知还一直挂着 —— 现在会跟着一起收掉\n- 修：小窗（后台小窗）里一集播完停在下一集的开头不动，要进软件点一下才播 —— 现在会自动接着播\n- 修：播放器里调过的亮度和音量，退出再进去又变回原样 —— 现在能真正记住了\n- 修：退出播放器后亮度没跟着还回去 —— 现在一回到主页就是系统原来的亮度\n- 新：播放器里上下滑调亮度和音量，现在直接调系统的，和音量键完全一致；退出播放器还回原来的\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31587970,
+      "sha256": "8cd3e48db258d7310878cbe853e02154bad2c5bb73107b8ff751b99ab5624887",
+      "notes": "**手机版 1.0.51+52**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：退出播放、关掉应用、甚至划掉后台之后，那条「正在播放」的常驻通知还一直挂着 —— 现在会跟着一起收掉\n- 修：小窗里一集播完停在下一集开头不动；播放器里调过的亮度和音量退出后没还回去 —— 都已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
