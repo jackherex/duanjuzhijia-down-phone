@@ -1,28 +1,28 @@
 {
-  "version": "1.0.53+54",
-  "versionName": "1.0.53",
-  "build": 54,
-  "versionCode": 10053,
+  "version": "1.0.54+55",
+  "versionName": "1.0.54",
+  "build": 55,
+  "versionCode": 10054,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-05T15:00:45Z",
-  "notes": "**手机版 1.0.53+54**\n\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回到设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.53-54",
+  "publishedAt": "2026-10-05T15:29:54Z",
+  "notes": "**手机版 1.0.54+55**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.54-55",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.53+54-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.53-54/duanjuzhijia2-1.0.53%2B54-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.54+55-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.53-54/duanjuzhijia2-1.0.53%2B54-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.53-54/duanjuzhijia2-1.0.53%2B54-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.53-54/duanjuzhijia2-1.0.53%2B54-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.53-54/duanjuzhijia2-1.0.53%2B54-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk"
       ],
-      "size": 35563130,
-      "sha256": "ea41c92d0726b21d905a1a8c60ab69bc1ab5b674149eaa6ff024403268873b9d",
-      "notes": "**手机版 1.0.53+54**\n\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回到设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 35563066,
+      "sha256": "65eded977b51657d1d5f973adbc251a60ca453955ed8a7d426653f1564a13f27",
+      "notes": "**手机版 1.0.54+55**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
