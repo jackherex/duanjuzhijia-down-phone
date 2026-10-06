@@ -1,28 +1,28 @@
 {
-  "version": "1.0.54+55",
-  "versionName": "1.0.54",
-  "build": 55,
-  "versionCode": 10054,
+  "version": "1.0.55+56",
+  "versionName": "1.0.55",
+  "build": 56,
+  "versionCode": 10055,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-05T15:29:54Z",
-  "notes": "**手机版 1.0.54+55**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.54-55",
+  "publishedAt": "2026-10-06T06:43:13Z",
+  "notes": "**手机版 1.0.55+56**\n\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说\n- 调：首页和剧库的海报间距默认放宽到 **20px**（海报大小仍是 100%）—— 卡片之间不再挤在一起（想调回去：设置 → 界面与播放，拖滑条）\n- 修：设备之间「其中一个同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.55-56",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.54+55-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.55+56-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.55-56/duanjuzhijia2-1.0.55%2B56-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.54-55/duanjuzhijia2-1.0.54%2B55-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.55-56/duanjuzhijia2-1.0.55%2B56-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.55-56/duanjuzhijia2-1.0.55%2B56-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.55-56/duanjuzhijia2-1.0.55%2B56-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.55-56/duanjuzhijia2-1.0.55%2B56-arm64-v8a.apk"
       ],
-      "size": 35563066,
-      "sha256": "65eded977b51657d1d5f973adbc251a60ca453955ed8a7d426653f1564a13f27",
-      "notes": "**手机版 1.0.54+55**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 35561534,
+      "sha256": "3bc8b849728e169169e6964e345dbc85f1659a5acce67d75a6b8d9ee668aee0a",
+      "notes": "**手机版 1.0.55+56**\n\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说\n- 调：首页和剧库的海报间距默认放宽到 **20px**（海报大小仍是 100%）—— 卡片之间不再挤在一起（想调回去：设置 → 界面与播放，拖滑条）\n- 修：设备之间「其中一个同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：设置页新增「扫一扫同步」—— 对着电脑版上的二维码扫一下就能配好，扫完回设置页点「测试连接」确认即可\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
