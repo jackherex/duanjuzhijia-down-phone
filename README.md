@@ -39,7 +39,9 @@
 
 ## 下载与安装说明
 
-安装包 `duanjuzhijia2-1.0.55+56-arm64-v8a.apk`，大小 `35561534` 字节。SHA-256：
+### `duanjuzhijia2-1.0.55+56-arm64-v8a.apk`
+
+大小 `35561534` 字节。SHA-256：
 
 ```
 3bc8b849728e169169e6964e345dbc85f1659a5acce67d75a6b8d9ee668aee0a
