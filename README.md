@@ -50,7 +50,7 @@
 > ⚠️ 上面这组校验值对应的是**本次说明写就时的最新版**。如果下载页上已经有更新的版本，
 > 请以页面上的为准（按钮永远指向最新版）。
 
-[本次版本说明](https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.54-55) · [全部版本](https://github.com/jackherex/duanjuzhijia-down-phone/releases)
+[全部版本与更新内容](https://github.com/jackherex/duanjuzhijia-down-phone/releases)
 
 ## 关于本仓库
 
