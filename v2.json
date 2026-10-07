@@ -1,28 +1,28 @@
 {
-  "version": "1.0.64+65",
-  "versionName": "1.0.64",
-  "build": 65,
-  "versionCode": 10064,
+  "version": "1.0.65+66",
+  "versionName": "1.0.65",
+  "build": 66,
+  "versionCode": 10065,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T11:44:34Z",
-  "notes": "**手机版 1.0.64+65**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.64-65",
+  "publishedAt": "2026-10-07T12:40:40Z",
+  "notes": "**手机版 1.0.65+66**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.65-66",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.64+65-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.64-65/duanjuzhijia2-1.0.64%2B65-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.65+66-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.65-66/duanjuzhijia2-1.0.65%2B66-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.64-65/duanjuzhijia2-1.0.64%2B65-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.64-65/duanjuzhijia2-1.0.64%2B65-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.64-65/duanjuzhijia2-1.0.64%2B65-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.64-65/duanjuzhijia2-1.0.64%2B65-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.65-66/duanjuzhijia2-1.0.65%2B66-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.65-66/duanjuzhijia2-1.0.65%2B66-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.65-66/duanjuzhijia2-1.0.65%2B66-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.65-66/duanjuzhijia2-1.0.65%2B66-arm64-v8a.apk"
       ],
-      "size": 35569858,
-      "sha256": "c824df0b10debfdcc6924388df0028b817f604dfc165a6f0743d757cbe9fb573",
-      "notes": "**手机版 1.0.64+65**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 35569898,
+      "sha256": "6a85d33fdfbda01a76e9ebd490206eaea1acc4d72b0a19f254a43c95a50d077e",
+      "notes": "**手机版 1.0.65+66**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
