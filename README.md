@@ -2,7 +2,7 @@
 
 在安卓手机和平板上找剧、接着上次看。支持搜索、收藏、选集、倍速、自动连播、下载缓存，也能和电脑版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 1.0.64+65**
+**免费使用 · 当前版本 1.0.65+66**
 
 [**⬇ 下载安卓安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-phone/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-phone/releases)
 
@@ -39,12 +39,12 @@
 
 ## 下载与安装说明
 
-### `duanjuzhijia2-1.0.64+65-arm64-v8a.apk`
+### `duanjuzhijia2-1.0.65+66-arm64-v8a.apk`
 
-大小 `35569858` 字节。SHA-256：
+大小 `35569898` 字节。SHA-256：
 
 ```
-c824df0b10debfdcc6924388df0028b817f604dfc165a6f0743d757cbe9fb573
+6a85d33fdfbda01a76e9ebd490206eaea1acc4d72b0a19f254a43c95a50d077e
 ```
 
 这串数字用来核对文件有没有下载完整，**不能代替身份认证**。
