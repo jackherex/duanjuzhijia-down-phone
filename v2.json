@@ -1,13 +1,13 @@
 {
-  "version": "1.0.73+74",
-  "versionName": "1.0.73",
-  "build": 74,
-  "versionCode": 10073,
+  "version": "1.0.74+75",
+  "versionName": "1.0.74",
+  "build": 75,
+  "versionCode": 10074,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T09:59:17Z",
-  "notes": "**手机版 1.0.73+74**\n\n- 改：**详情页的选集不再「50 集一页」** —— 恢复成一条连续网格，往下滑就是全部集数，没有下拉框和翻页箭头了\n- 改：**播放器里的选集**同样是一条连续网格，顶部保留「定位当前」一行，点一下直接回到正在看的那一集\n- 修：有声书切到后台继续播放；通知栏播放卡片恢复进度条并可拖动\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.73-74",
+  "publishedAt": "2026-10-19T12:27:11Z",
+  "notes": "**手机版 1.0.74+75**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：竖屏全屏时保留状态栏，时间、电量、信号都能看见，画面不会被刘海挡住\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.74-75",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.73+74-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.73-74/duanjuzhijia2-1.0.73%2B74-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.74+75-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.74-75/duanjuzhijia2-1.0.74%2B75-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.73-74/duanjuzhijia2-1.0.73%2B74-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.73-74/duanjuzhijia2-1.0.73%2B74-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.73-74/duanjuzhijia2-1.0.73%2B74-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.73-74/duanjuzhijia2-1.0.73%2B74-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.74-75/duanjuzhijia2-1.0.74%2B75-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.74-75/duanjuzhijia2-1.0.74%2B75-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.74-75/duanjuzhijia2-1.0.74%2B75-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.74-75/duanjuzhijia2-1.0.74%2B75-arm64-v8a.apk"
       ],
-      "size": 35751446,
-      "sha256": "ac9ae7a9db97367e6ad02443ed09512348db1edcc93099753b94ea98310fd446",
-      "notes": "**手机版 1.0.73+74**\n\n- 改：**详情页的选集不再「50 集一页」** —— 恢复成一条连续网格，往下滑就是全部集数，没有下拉框和翻页箭头了\n- 改：**播放器里的选集**同样是一条连续网格，顶部保留「定位当前」一行，点一下直接回到正在看的那一集\n- 修：有声书切到后台继续播放；通知栏播放卡片恢复进度条并可拖动\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
+      "size": 35752394,
+      "sha256": "1ff4cfa1c2462258f819b8fe66027acb0b9ec36c4a669f37b2abbfa10087fee4",
+      "notes": "**手机版 1.0.74+75**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：竖屏全屏时保留状态栏，时间、电量、信号都能看见，画面不会被刘海挡住\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
     }
   ]
 }
