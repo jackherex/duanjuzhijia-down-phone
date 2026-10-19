@@ -1,13 +1,13 @@
 {
-  "version": "1.0.71+72",
-  "versionName": "1.0.71",
-  "build": 72,
-  "versionCode": 10071,
+  "version": "1.0.72+73",
+  "versionName": "1.0.72",
+  "build": 73,
+  "versionCode": 10072,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T09:15:41Z",
-  "notes": "**手机版 1.0.71+72**\n\n- 修：**有声书切到后台就没声了** —— 按 Home 或切到别的应用后继续播放，回来也不用重新点\n- 修：**通知栏播放卡片没有进度条** —— 已恢复，并且**可以拖动**跳到想看的位置\n- 新：**播放器里的选集加了「分段快捷条 + 跳转」** —— 集数多时每 50 集一档点一下就到，或直接输入集数跳过去（详情页的选集保持原样）\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.71-72",
+  "publishedAt": "2026-10-19T09:27:04Z",
+  "notes": "**手机版 1.0.72+73**\n\n- 修：**详情页的选集恢复成原来的样子** —— 上一版在详情页多出来的「跳转」按钮已撤掉，只保留图钉图标\n- 修：**有声书切到后台就没声了** —— 按 Home 或切到别的应用后继续播放，回来也不用重新点\n- 修：**通知栏播放卡片没有进度条** —— 已恢复，并且**可以拖动**跳到想看的位置\n- 新：**播放器里的选集**（播放页弹出的那一层）集数多时，多了一条「分段快捷条 + 跳转」，不用一路往下划\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.72-73",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.71+72-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.71-72/duanjuzhijia2-1.0.71%2B72-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.72+73-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.72-73/duanjuzhijia2-1.0.72%2B73-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.71-72/duanjuzhijia2-1.0.71%2B72-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.71-72/duanjuzhijia2-1.0.71%2B72-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.71-72/duanjuzhijia2-1.0.71%2B72-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.71-72/duanjuzhijia2-1.0.71%2B72-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.72-73/duanjuzhijia2-1.0.72%2B73-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.72-73/duanjuzhijia2-1.0.72%2B73-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.72-73/duanjuzhijia2-1.0.72%2B73-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.72-73/duanjuzhijia2-1.0.72%2B73-arm64-v8a.apk"
       ],
-      "size": 35758798,
-      "sha256": "2aa0471fa19cc9b00ed731758514062b46ad9389ae328f7ac0b1e8f0bf1539de",
-      "notes": "**手机版 1.0.71+72**\n\n- 修：**有声书切到后台就没声了** —— 按 Home 或切到别的应用后继续播放，回来也不用重新点\n- 修：**通知栏播放卡片没有进度条** —— 已恢复，并且**可以拖动**跳到想看的位置\n- 新：**播放器里的选集加了「分段快捷条 + 跳转」** —— 集数多时每 50 集一档点一下就到，或直接输入集数跳过去（详情页的选集保持原样）\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
+      "size": 35758774,
+      "sha256": "ac28ee19a20489dca55c8bbe281c6f1540d44ffb5857f2b0ca5e22c47699737d",
+      "notes": "**手机版 1.0.72+73**\n\n- 修：**详情页的选集恢复成原来的样子** —— 上一版在详情页多出来的「跳转」按钮已撤掉，只保留图钉图标\n- 修：**有声书切到后台就没声了** —— 按 Home 或切到别的应用后继续播放，回来也不用重新点\n- 修：**通知栏播放卡片没有进度条** —— 已恢复，并且**可以拖动**跳到想看的位置\n- 新：**播放器里的选集**（播放页弹出的那一层）集数多时，多了一条「分段快捷条 + 跳转」，不用一路往下划\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
     }
   ]
 }
