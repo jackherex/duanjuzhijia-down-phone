@@ -1,28 +1,35 @@
 {
-  "version": "1.0.67+68",
-  "versionName": "1.0.67",
-  "build": 68,
-  "versionCode": 10067,
+  "version": "1.0.68+69",
+  "versionName": "1.0.68",
+  "build": 69,
+  "versionCode": 10068,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-18T15:26:19Z",
-  "notes": "**手机版 1.0.67+68**\n\n- 修：**投本地剧集失败**（提示「不是本应用生成的临时文件」）—— 现在能正常投\n- 修：**投屏配对码要等输错一次才出来** —— 现在进配对页直接显示\n- 修：**退出投屏后屏幕照样自动息屏，而且关不掉** —— 现在退出即恢复\n- 修：**预约新集上线后点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.67-68",
+  "publishedAt": "2026-10-19T03:18:02Z",
+  "notes": "**手机版 1.0.68+69**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.68-69",
+  "gate": {
+    "salt": "djzj-2026-10-19-4f1a",
+    "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
+    "iterations": 2000,
+    "group": "https://t.me/duanjuzhijia",
+    "hint": "4 位数字"
+  },
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.67+68-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.67-68/duanjuzhijia2-1.0.67%2B68-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.68+69-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.68-69/duanjuzhijia2-1.0.68%2B69-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.67-68/duanjuzhijia2-1.0.67%2B68-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.67-68/duanjuzhijia2-1.0.67%2B68-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.67-68/duanjuzhijia2-1.0.67%2B68-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.67-68/duanjuzhijia2-1.0.67%2B68-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.68-69/duanjuzhijia2-1.0.68%2B69-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.68-69/duanjuzhijia2-1.0.68%2B69-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.68-69/duanjuzhijia2-1.0.68%2B69-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.68-69/duanjuzhijia2-1.0.68%2B69-arm64-v8a.apk"
       ],
-      "size": 35741138,
-      "sha256": "392ee7234d1f087e1b93877c3ea7daf3aa6140064c3eb9618eb95fba87c2a5c2",
-      "notes": "**手机版 1.0.67+68**\n\n- 修：**投本地剧集失败**（提示「不是本应用生成的临时文件」）—— 现在能正常投\n- 修：**投屏配对码要等输错一次才出来** —— 现在进配对页直接显示\n- 修：**退出投屏后屏幕照样自动息屏，而且关不掉** —— 现在退出即恢复\n- 修：**预约新集上线后点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」"
+      "size": 35753962,
+      "sha256": "9112fbfe79c0f58f1067d6e680b885a14ef15588ebcc61ef90faacb07314c671",
+      "notes": "**手机版 1.0.68+69**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     }
   ]
 }
