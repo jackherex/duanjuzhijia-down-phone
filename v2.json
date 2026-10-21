@@ -1,13 +1,13 @@
 {
-  "version": "1.0.75+76",
-  "versionName": "1.0.75",
-  "build": 76,
-  "versionCode": 10075,
+  "version": "1.0.78+79",
+  "versionName": "1.0.78",
+  "build": 79,
+  "versionCode": 10078,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T12:40:53Z",
-  "notes": "**手机版 1.0.75+76**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：**全屏就是全屏** —— 竖屏观看时也把时间、电量、信号那条状态栏一起隐藏，画面更干净\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.75-76",
+  "publishedAt": "2026-10-21T07:14:05Z",
+  "notes": "**手机版 1.0.78+79**\n\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页（以前点完题材进去、看两集退出来，分类页已经没了，得重新点一次「分类」）。\n- 修：从列表退回分类页后，刚看过的那个题材会带勾，接着换题材不用再找一遍。\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页（「家庭」实测能一路翻到 120 部以上）。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看十几个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住）。\n- 说明：这一版起**包名回到原来的 `com.duanju.duanju_app.v2`**，1.0.75+76 及更早的版本都能直接覆盖安装，设置与观看记录都保留（1.0.76+77 那一版包名出过错、装不上，本次已修正）。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.78-79",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.75+76-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.78+79-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.78-79/duanjuzhijia2-1.0.78%2B79-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.78-79/duanjuzhijia2-1.0.78%2B79-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.78-79/duanjuzhijia2-1.0.78%2B79-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.78-79/duanjuzhijia2-1.0.78%2B79-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.78-79/duanjuzhijia2-1.0.78%2B79-arm64-v8a.apk"
       ],
-      "size": 35752414,
-      "sha256": "ed76607c8801090abcb910da5b720fc6de02b0ff7b5daf70e264fed22582b5e6",
-      "notes": "**手机版 1.0.75+76**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：**全屏就是全屏** —— 竖屏观看时也把时间、电量、信号那条状态栏一起隐藏，画面更干净\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
+      "size": 35755110,
+      "sha256": "169d97902c4f5089cb4fefa2707295ce8b4350b14d52e6a9c8509b05ad598632",
+      "notes": "**手机版 1.0.78+79**\n\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页（以前点完题材进去、看两集退出来，分类页已经没了，得重新点一次「分类」）。\n- 修：从列表退回分类页后，刚看过的那个题材会带勾，接着换题材不用再找一遍。\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页（「家庭」实测能一路翻到 120 部以上）。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看十几个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住）。\n- 说明：这一版起**包名回到原来的 `com.duanju.duanju_app.v2`**，1.0.75+76 及更早的版本都能直接覆盖安装，设置与观看记录都保留（1.0.76+77 那一版包名出过错、装不上，本次已修正）。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
