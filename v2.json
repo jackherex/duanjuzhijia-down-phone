@@ -1,13 +1,13 @@
 {
-  "version": "1.0.75+76",
-  "versionName": "1.0.75",
-  "build": 76,
-  "versionCode": 10075,
+  "version": "1.0.76+77",
+  "versionName": "1.0.76",
+  "build": 77,
+  "versionCode": 10076,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T12:40:53Z",
+  "publishedAt": "2026-10-21T04:02:57Z",
   "notes": "**手机版 1.0.75+76**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：**全屏就是全屏** —— 竖屏观看时也把时间、电量、信号那条状态栏一起隐藏，画面更干净\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.75-76",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.76-77",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,16 +19,16 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.75+76-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.76+77-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.76-77/duanjuzhijia2-1.0.76%2B77-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.75-76/duanjuzhijia2-1.0.75%2B76-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.76-77/duanjuzhijia2-1.0.76%2B77-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.76-77/duanjuzhijia2-1.0.76%2B77-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.76-77/duanjuzhijia2-1.0.76%2B77-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.76-77/duanjuzhijia2-1.0.76%2B77-arm64-v8a.apk"
       ],
-      "size": 35752414,
-      "sha256": "ed76607c8801090abcb910da5b720fc6de02b0ff7b5daf70e264fed22582b5e6",
+      "size": 35752322,
+      "sha256": "869048f56ebf8e27fe2554c1d39fc48058f02650f4d3f368b0f3f9b1a49db94d",
       "notes": "**手机版 1.0.75+76**\n\n- 新：**全屏里可以自己选横屏还是竖屏** —— 顶栏右上角多了一颗按钮（横屏看时显示「竖屏观看」，竖屏看时显示「横屏观看」）。横屏视频也能钉在竖屏里看，画面居中、上下留黑，跟 YouTube 那样；再点一下转回横屏\n- 改：**全屏就是全屏** —— 竖屏观看时也把时间、电量、信号那条状态栏一起隐藏，画面更干净\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
     }
   ]
