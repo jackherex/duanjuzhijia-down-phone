@@ -1,13 +1,13 @@
 {
-  "version": "1.0.85+86",
-  "versionName": "1.0.85",
-  "build": 86,
-  "versionCode": 10085,
+  "version": "1.0.86+87",
+  "versionName": "1.0.86",
+  "build": 87,
+  "versionCode": 10086,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-22T02:34:18Z",
-  "notes": "**手机版 1.0.85+86**\n\n这一版从 1.0.78 直接跳到这里，中间几版没单独发布，下面把累积的改动一次列全。\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），不用开着 App 也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换手机之后不用重新勾一遍。\n- 修：「预约下一季」点进去报「剧集信息暂时不可用」。现在会先在站里搜到真实剧集再打开，搜不到会明确告诉你「可能已下架或改了名字」，不再抛一个假链接出来。\n- 改：云端检测频率统一成 10 分钟（以前文案还写着 30 分钟，与实际不符）。\n- 说明：包名仍是 `com.duanju.duanju_app.v2`，1.0.78 及更早的版本都能直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.85-86",
+  "publishedAt": "2026-10-22T03:15:55Z",
+  "notes": "**手机版 1.0.86+87**\n\n这一版从 1.0.78 直接跳到这里，中间几版没单独发布，下面把累积的改动一次列全。\n\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开 App，或者过了 0 点之后的第一次）。以前每次从后台切回前台都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），不用开着 App 也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换手机之后不用重新勾一遍。\n- 修：「预约下一季」点进去报「剧集信息暂时不可用」。现在会先在站里搜到真实剧集再打开，搜不到会明确告诉你「可能已下架或改了名字」，不再抛一个假链接出来。\n- 改：云端检测频率统一成 10 分钟（以前文案还写着 30 分钟，与实际不符）。\n- 说明：包名仍是 `com.duanju.duanju_app.v2`，1.0.78 及更早的版本都能直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.86-87",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.85+86-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.85-86/duanjuzhijia2-1.0.85%2B86-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.86+87-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.86-87/duanjuzhijia2-1.0.86%2B87-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.85-86/duanjuzhijia2-1.0.85%2B86-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.85-86/duanjuzhijia2-1.0.85%2B86-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.85-86/duanjuzhijia2-1.0.85%2B86-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.85-86/duanjuzhijia2-1.0.85%2B86-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.86-87/duanjuzhijia2-1.0.86%2B87-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.86-87/duanjuzhijia2-1.0.86%2B87-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.86-87/duanjuzhijia2-1.0.86%2B87-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.86-87/duanjuzhijia2-1.0.86%2B87-arm64-v8a.apk"
       ],
-      "size": 35881282,
-      "sha256": "8fed5198de913f085e25fe5ed2eb47b49b5dff1ab1ad9552035d9a07e41ce5d2",
-      "notes": "**手机版 1.0.85+86**\n\n这一版从 1.0.78 直接跳到这里，中间几版没单独发布，下面把累积的改动一次列全。\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），不用开着 App 也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换手机之后不用重新勾一遍。\n- 修：「预约下一季」点进去报「剧集信息暂时不可用」。现在会先在站里搜到真实剧集再打开，搜不到会明确告诉你「可能已下架或改了名字」，不再抛一个假链接出来。\n- 改：云端检测频率统一成 10 分钟（以前文案还写着 30 分钟，与实际不符）。\n- 说明：包名仍是 `com.duanju.duanju_app.v2`，1.0.78 及更早的版本都能直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 35882550,
+      "sha256": "087ff3e6ec186767d7e7ea234cf82bf37f242021c78ea570f205cc091d7b6ccc",
+      "notes": "**手机版 1.0.86+87**\n\n这一版从 1.0.78 直接跳到这里，中间几版没单独发布，下面把累积的改动一次列全。\n\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开 App，或者过了 0 点之后的第一次）。以前每次从后台切回前台都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），不用开着 App 也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换手机之后不用重新勾一遍。\n- 修：「预约下一季」点进去报「剧集信息暂时不可用」。现在会先在站里搜到真实剧集再打开，搜不到会明确告诉你「可能已下架或改了名字」，不再抛一个假链接出来。\n- 改：云端检测频率统一成 10 分钟（以前文案还写着 30 分钟，与实际不符）。\n- 说明：包名仍是 `com.duanju.duanju_app.v2`，1.0.78 及更早的版本都能直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
