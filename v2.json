@@ -1,13 +1,13 @@
 {
-  "version": "1.0.89+90",
-  "versionName": "1.0.89",
-  "build": 90,
-  "versionCode": 10089,
+  "version": "1.0.90+91",
+  "versionName": "1.0.90",
+  "build": 91,
+  "versionCode": 10090,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T04:12:32Z",
-  "notes": "**手机版 1.0.89+90**\n\n- 修：**同一部剧的其它季不见了** —— 站里有些长剧是这么起名的：《抽象三国第一季》《抽象三国第二季：子龙很忙》《抽象三国第四季：群雄乱斗》。旧规则只把「第四季」这几个字去掉，剩下的「抽象三国：群雄乱斗」就被当成另一个剧名，跟《抽象三国第一季》对不上，于是同一部剧只显示一季，别的季在详情页里根本翻不到。现在改成从季号一路切到结尾，副标题不再干扰归并。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.89-90",
+  "publishedAt": "2026-10-23T10:09:08Z",
+  "notes": "**手机版 1.0.90+91**\n\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.90-91",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.89+90-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.89-90/duanjuzhijia2-1.0.89%2B90-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.90+91-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.90-91/duanjuzhijia2-1.0.90%2B91-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.89-90/duanjuzhijia2-1.0.89%2B90-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.89-90/duanjuzhijia2-1.0.89%2B90-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.89-90/duanjuzhijia2-1.0.89%2B90-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.89-90/duanjuzhijia2-1.0.89%2B90-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.90-91/duanjuzhijia2-1.0.90%2B91-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.90-91/duanjuzhijia2-1.0.90%2B91-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.90-91/duanjuzhijia2-1.0.90%2B91-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.90-91/duanjuzhijia2-1.0.90%2B91-arm64-v8a.apk"
       ],
-      "size": 35885342,
-      "sha256": "0ad2578c81ae41c3ae5e7298714586c6070b4a0daaa461cfcafdbc593bbab154",
-      "notes": "**手机版 1.0.89+90**\n\n- 修：**同一部剧的其它季不见了** —— 站里有些长剧是这么起名的：《抽象三国第一季》《抽象三国第二季：子龙很忙》《抽象三国第四季：群雄乱斗》。旧规则只把「第四季」这几个字去掉，剩下的「抽象三国：群雄乱斗」就被当成另一个剧名，跟《抽象三国第一季》对不上，于是同一部剧只显示一季，别的季在详情页里根本翻不到。现在改成从季号一路切到结尾，副标题不再干扰归并。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 35886774,
+      "sha256": "6c544ca8211eb60d39e8f0faa2981f530d4b793b6ebcbee220c1205149a9d82f",
+      "notes": "**手机版 1.0.90+91**\n\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
