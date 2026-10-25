@@ -1,13 +1,13 @@
 {
-  "version": "1.0.93+94",
-  "versionName": "1.0.93",
-  "build": 94,
-  "versionCode": 10093,
+  "version": "1.0.94+95",
+  "versionName": "1.0.94",
+  "build": 95,
+  "versionCode": 10094,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-25T07:21:58Z",
+  "publishedAt": "2026-10-25T13:13:49Z",
   "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.93-94",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.94-95",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,16 +19,16 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.93+94-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.93-94/duanjuzhijia2-1.0.93%2B94-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.94+95-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.93-94/duanjuzhijia2-1.0.93%2B94-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.93-94/duanjuzhijia2-1.0.93%2B94-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.93-94/duanjuzhijia2-1.0.93%2B94-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.93-94/duanjuzhijia2-1.0.93%2B94-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk"
       ],
-      "size": 35893962,
-      "sha256": "a6281527e044b3ab5bf21cce80b159b1f824eb46d3f87b2e125bedce0dff877d",
+      "size": 35894354,
+      "sha256": "4bde92281f0c9083f243d85c4f1fd3deea9d43939e582bcd1f8988f88238b6c8",
       "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
