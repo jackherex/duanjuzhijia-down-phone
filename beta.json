@@ -1,0 +1,35 @@
+{
+  "version": "1.0.95+96",
+  "versionName": "1.0.95",
+  "build": 96,
+  "versionCode": 10095,
+  "minVersion": "",
+  "force": false,
+  "publishedAt": "2026-10-26T12:51:13Z",
+  "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.95-96-beta",
+  "gate": {
+    "salt": "djzj-2115cfea85b3",
+    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
+    "iterations": 2000,
+    "group": "https://t.me/duanjuzhijia",
+    "hint": "4 位数字"
+  },
+  "assets": [
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "arm64-v8a",
+      "name": "duanjuzhijia2-1.0.95+96-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.95-96-beta/duanjuzhijia2-1.0.95%2B96-arm64-v8a.apk",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.95-96-beta/duanjuzhijia2-1.0.95%2B96-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.95-96-beta/duanjuzhijia2-1.0.95%2B96-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.95-96-beta/duanjuzhijia2-1.0.95%2B96-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.95-96-beta/duanjuzhijia2-1.0.95%2B96-arm64-v8a.apk"
+      ],
+      "size": 35922630,
+      "sha256": "6b2281fc4dc57ed81013717b27266f36a30acc5ce92b7ee28220dc3699c9269a",
+      "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+    }
+  ]
+}
