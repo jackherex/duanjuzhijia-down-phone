@@ -1,13 +1,13 @@
 {
-  "version": "1.1.12+113",
-  "versionName": "1.1.12",
-  "build": 113,
-  "versionCode": 10112,
+  "version": "1.1.18+119",
+  "versionName": "1.1.18",
+  "build": 119,
+  "versionCode": 10118,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T09:56:09Z",
-  "notes": "## 手机版 1.1.12+113\n\n这一版只做一件事：**把历史页的卡顿彻底去掉**。\n\n先说清楚 —— 收藏按钮**这版还没修好**，仍然会提示风控。原因我写在最后，需要你配合做一次判断。\n\n---\n\n### 1. 历史页：进页面不再联网，改成右上角一键拉取\n\n你猜得对，就是「一次过同时获取」卡住了。上一版我虽然加了 3 秒硬预算，但只要打开历史页，它还是会去抓网页详情页 —— 一部剧一个页面，约 160 KB，42 部就是 6.7 MB。慢的时候 3 秒也出不来，页面就一直转圈。\n\n现在改成三档，默认那一档**完全不发网络请求**：\n\n| 时机 | 行为 |\n|---|---|\n| 打开历史页 | 只读本地已有的剧名封面缓存，**一个请求都不发**，秒开 |\n| 右上角「拉取剧名封面」 | 你主动点了才联网，最多 25 秒 / 一次 40 部 |\n| 拉完之后 | 结果进 6 小时缓存，再打开还是秒开 |\n\n进页面时如果还有没补上剧名的，列表上方会有一行小字告诉你还剩几部、按钮在哪 —— 不会让你以为「剧集 7671…」就是最终效果。\n\n按钮在标题栏右上角，图标是星星（`auto_awesome`），文字「拉取剧名封面」。拉的过程中按钮转圈 + 显示「拉取中…」，拉完会弹一句结果，比如「补上了 18 部的剧名和封面」。连点两次不会重复抓，第二次基本秒回。\n\n### 2. 顺手改的两处小问题\n\n- 拉取是手动触发的，所以原生侧那批请求**不带**风控重试等待（原来风控重试会让一次拉取白等 17 秒）；\n- 「拉取失败」的提示改成带具体原因，不再只是一句「失败」。\n\n---\n\n### 需要你回一句\n\n**收藏那颗爱心，这版没修。** 麻烦帮我做一件事，能决定下一步往哪查：\n\n1. 在红果 App 里手动收藏一部剧，然后回到我们 App 打开这部剧的详情页 —— 爱心是**已经红着的**吗？\n   - 如果是 → 说明「读收藏状态」这条链路是通的，坏的只是「写」。\n   - 如果不是 → 连读都不对，问题在请求头指纹上，不在写逻辑。\n\n2. 顺手看一下历史页：现在点进去是不是**立刻**就出来了？\n\n**下一步我打算查 `x-tt-token`**：这个头我们现在带的是整段 Cookie，而正常客户端带的是登录令牌的**前 56 个字符**。这个差别在风控眼里可能很明显 —— 一个像是 App 自己拼的，一个像是从浏览器里抄的。但这只能一次改一个变量试，所以先等你上面那句回答。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.12-113",
+  "publishedAt": "2026-10-27T12:32:26Z",
+  "notes": "## 手机版 1.1.18+119\n\n这一版把前面几版的改动一起发出来，另外修了「复制 Cookie 复制出来太长、粘不动」的问题。\n\n---\n\n### 1. 红果账号页新增「复制 Cookie」，而且复制出来是干净的一条\n\n「设置 → 红果账号」登录之后，账号卡下面有 **复制 Cookie** 按钮。\n\n之前复制出来是 800 多个字符、`store-region` / `passport_csrf_token` 重复几十遍 —— 因为存的是登录当天「全量倒出来」的那份。现在**读取时**按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的丢掉。**不用重新登录**。\n\n正常应该长这样，一条、几百字符：\n\n```\nsessionid=xxx; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条同样是 800 多字符带一堆重复项。\n\n### 2. 历史页：进页面自动补剧名封面\n\n以前要手动点右上角按钮，没人会去点，列表一直显示「剧集 7675343044727557144」。现在列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie，正常客户端带的是登录令牌的前 56 个字符。这一版按真凭据取前 56 位，取不到就不带。报错里也会带上服务端原话，不再只有「风控中」三个字。\n\n⚠️ 这一处**还没在真机上验证过**：收藏能不能写进去，要等你实际点一次才知道。如果还是不行，点「复制 Cookie」把内容发我，我这边能直接复现。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.18-119",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.12+113-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.18+119-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk"
       ],
-      "size": 36076690,
-      "sha256": "b48d91e768e07955eaaa9620f96e2537316a37b3e3d91545750697e3716ed5e8",
-      "notes": "## 手机版 1.1.12+113\n\n这一版只做一件事：**把历史页的卡顿彻底去掉**。\n\n先说清楚 —— 收藏按钮**这版还没修好**，仍然会提示风控。原因我写在最后，需要你配合做一次判断。\n\n---\n\n### 1. 历史页：进页面不再联网，改成右上角一键拉取\n\n你猜得对，就是「一次过同时获取」卡住了。上一版我虽然加了 3 秒硬预算，但只要打开历史页，它还是会去抓网页详情页 —— 一部剧一个页面，约 160 KB，42 部就是 6.7 MB。慢的时候 3 秒也出不来，页面就一直转圈。\n\n现在改成三档，默认那一档**完全不发网络请求**：\n\n| 时机 | 行为 |\n|---|---|\n| 打开历史页 | 只读本地已有的剧名封面缓存，**一个请求都不发**，秒开 |\n| 右上角「拉取剧名封面」 | 你主动点了才联网，最多 25 秒 / 一次 40 部 |\n| 拉完之后 | 结果进 6 小时缓存，再打开还是秒开 |\n\n进页面时如果还有没补上剧名的，列表上方会有一行小字告诉你还剩几部、按钮在哪 —— 不会让你以为「剧集 7671…」就是最终效果。\n\n按钮在标题栏右上角，图标是星星（`auto_awesome`），文字「拉取剧名封面」。拉的过程中按钮转圈 + 显示「拉取中…」，拉完会弹一句结果，比如「补上了 18 部的剧名和封面」。连点两次不会重复抓，第二次基本秒回。\n\n### 2. 顺手改的两处小问题\n\n- 拉取是手动触发的，所以原生侧那批请求**不带**风控重试等待（原来风控重试会让一次拉取白等 17 秒）；\n- 「拉取失败」的提示改成带具体原因，不再只是一句「失败」。\n\n---\n\n### 需要你回一句\n\n**收藏那颗爱心，这版没修。** 麻烦帮我做一件事，能决定下一步往哪查：\n\n1. 在红果 App 里手动收藏一部剧，然后回到我们 App 打开这部剧的详情页 —— 爱心是**已经红着的**吗？\n   - 如果是 → 说明「读收藏状态」这条链路是通的，坏的只是「写」。\n   - 如果不是 → 连读都不对，问题在请求头指纹上，不在写逻辑。\n\n2. 顺手看一下历史页：现在点进去是不是**立刻**就出来了？\n\n**下一步我打算查 `x-tt-token`**：这个头我们现在带的是整段 Cookie，而正常客户端带的是登录令牌的**前 56 个字符**。这个差别在风控眼里可能很明显 —— 一个像是 App 自己拼的，一个像是从浏览器里抄的。但这只能一次改一个变量试，所以先等你上面那句回答。"
+      "size": 36079266,
+      "sha256": "671bd6bba42e8117450976385a4a613fb092d60bff7f744c4c4f465080a00783",
+      "notes": "## 手机版 1.1.18+119\n\n这一版把前面几版的改动一起发出来，另外修了「复制 Cookie 复制出来太长、粘不动」的问题。\n\n---\n\n### 1. 红果账号页新增「复制 Cookie」，而且复制出来是干净的一条\n\n「设置 → 红果账号」登录之后，账号卡下面有 **复制 Cookie** 按钮。\n\n之前复制出来是 800 多个字符、`store-region` / `passport_csrf_token` 重复几十遍 —— 因为存的是登录当天「全量倒出来」的那份。现在**读取时**按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的丢掉。**不用重新登录**。\n\n正常应该长这样，一条、几百字符：\n\n```\nsessionid=xxx; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条同样是 800 多字符带一堆重复项。\n\n### 2. 历史页：进页面自动补剧名封面\n\n以前要手动点右上角按钮，没人会去点，列表一直显示「剧集 7675343044727557144」。现在列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie，正常客户端带的是登录令牌的前 56 个字符。这一版按真凭据取前 56 位，取不到就不带。报错里也会带上服务端原话，不再只有「风控中」三个字。\n\n⚠️ 这一处**还没在真机上验证过**：收藏能不能写进去，要等你实际点一次才知道。如果还是不行，点「复制 Cookie」把内容发我，我这边能直接复现。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
