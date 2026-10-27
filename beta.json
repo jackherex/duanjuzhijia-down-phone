@@ -1,13 +1,13 @@
 {
-  "version": "1.1.13+114",
-  "versionName": "1.1.13",
-  "build": 114,
-  "versionCode": 10113,
+  "version": "1.1.15+116",
+  "versionName": "1.1.15",
+  "build": 116,
+  "versionCode": 10115,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T11:22:04Z",
-  "notes": "## 手机版 1.1.13+114（测试版）\n\n这一版只改一件事：**红果收藏被风控拦掉**（点爱心一直提示「红果风控中」）。\n\n---\n\n### 1. 为什么只有收藏坏、别的都正常\n\n平台的风控只校验**写**请求 —— 所以「看历史、看收藏列表、看预约」全都正常，唯独点收藏被拦。写请求上有一个风控 SDK 的版本号，我们之前报的版本和请求的其它指纹对不上，风控一看就知道「这不是正常客户端发的」，直接回 `101144`。\n\n这一版把版本号和指纹头都改成与正常客户端一致，并且**只在写请求上带**那一个头（读请求本来就不带）。\n\n### 2. 顺带修掉的一个硬错误：取消收藏的请求体是错的\n\n「加入收藏」和「取消收藏」看着是一件事，其实是**两种不同形状的请求**：\n\n| | 请求体顶层 | 条目里 |\n|---|---|---|\n| 加入 | 带「进入来源」那段 | 不带 `group_name` |\n| 取消 | **不带**「进入来源」 | 带一个空的 `group_name` |\n\n之前两处都按「加入」的形状发，所以**取消收藏必然失败**，而加入那条碰巧是对的。现在按各自的形状发。\n\n### 3. 这版是测试版\n\n只推给开了「接收测试版」的人。装过正式版 1.1.12 的直接覆盖安装，观看记录、收藏、设置都保留。\n\n---\n\n### 如果还是不行\n\n麻烦把「设置 → 反馈问题 → 收集诊断信息」那段文字发我。里面只有机型、系统版本、解码方式，**不含账号、IP 和观看记录**。\n\n风控是平台侧的策略，这一版只是把请求做成正常客户端的样子。如果账号本身已经被平台标记过，可能还需要等一段时间，或者换台设备登录一次。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.13-114-beta",
+  "publishedAt": "2026-10-27T12:00:11Z",
+  "notes": "## 手机版 1.1.15+116（测试版）\n\n这一版在上一版（1.1.14）的基础上，加了一个排查用的入口。\n\n---\n\n### 1. 新增：红果账号页「复制 Cookie」\n\n「设置 → 红果账号」里，登录之后账号卡下面多了一颗**复制 Cookie** 按钮。点一下把当前登录凭据整段复制到剪贴板，会提示复制了多少字符。\n\n用途只有一个：**排查问题时把它发给开发者**。这是账号凭据，别公开贴到群里或 issue 里。它只在你点按钮时读一次，不写日志、不进诊断报告、不参与云同步。\n\n### 2. 历史页：进页面自动补剧名封面\n\n上一版改成了手动按钮，但没人会去点它，所以列表一直显示「剧集 7675343044727557144」。现在改成：列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie（500 多个字符），正常客户端带的是登录令牌的**前 56 个字符**。这一版按真凭据取前 56 位，取不到就不带。\n\n另外报错里会带上服务端返回的原话，不再只有「风控中」三个字。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 装过 1.1.12 正式版的可以直接覆盖安装，记录和设置都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.15-116-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.13+114-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.13-114-beta/duanjuzhijia2-1.1.13%2B114-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.15+116-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.15-116-beta/duanjuzhijia2-1.1.15%2B116-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.13-114-beta/duanjuzhijia2-1.1.13%2B114-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.13-114-beta/duanjuzhijia2-1.1.13%2B114-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.13-114-beta/duanjuzhijia2-1.1.13%2B114-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.13-114-beta/duanjuzhijia2-1.1.13%2B114-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.15-116-beta/duanjuzhijia2-1.1.15%2B116-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.15-116-beta/duanjuzhijia2-1.1.15%2B116-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.15-116-beta/duanjuzhijia2-1.1.15%2B116-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.15-116-beta/duanjuzhijia2-1.1.15%2B116-arm64-v8a.apk"
       ],
-      "size": 36076446,
-      "sha256": "3fb061d8dbc5950454c8582f8a9fad74aa640855ef93ebb0a5e71c20380c35c4",
-      "notes": "## 手机版 1.1.13+114（测试版）\n\n这一版只改一件事：**红果收藏被风控拦掉**（点爱心一直提示「红果风控中」）。\n\n---\n\n### 1. 为什么只有收藏坏、别的都正常\n\n平台的风控只校验**写**请求 —— 所以「看历史、看收藏列表、看预约」全都正常，唯独点收藏被拦。写请求上有一个风控 SDK 的版本号，我们之前报的版本和请求的其它指纹对不上，风控一看就知道「这不是正常客户端发的」，直接回 `101144`。\n\n这一版把版本号和指纹头都改成与正常客户端一致，并且**只在写请求上带**那一个头（读请求本来就不带）。\n\n### 2. 顺带修掉的一个硬错误：取消收藏的请求体是错的\n\n「加入收藏」和「取消收藏」看着是一件事，其实是**两种不同形状的请求**：\n\n| | 请求体顶层 | 条目里 |\n|---|---|---|\n| 加入 | 带「进入来源」那段 | 不带 `group_name` |\n| 取消 | **不带**「进入来源」 | 带一个空的 `group_name` |\n\n之前两处都按「加入」的形状发，所以**取消收藏必然失败**，而加入那条碰巧是对的。现在按各自的形状发。\n\n### 3. 这版是测试版\n\n只推给开了「接收测试版」的人。装过正式版 1.1.12 的直接覆盖安装，观看记录、收藏、设置都保留。\n\n---\n\n### 如果还是不行\n\n麻烦把「设置 → 反馈问题 → 收集诊断信息」那段文字发我。里面只有机型、系统版本、解码方式，**不含账号、IP 和观看记录**。\n\n风控是平台侧的策略，这一版只是把请求做成正常客户端的样子。如果账号本身已经被平台标记过，可能还需要等一段时间，或者换台设备登录一次。"
+      "size": 36079238,
+      "sha256": "268641a76500b61c54e87cc83d42c45cc02fe04f6c610a1cb50a558c9f473d81",
+      "notes": "## 手机版 1.1.15+116（测试版）\n\n这一版在上一版（1.1.14）的基础上，加了一个排查用的入口。\n\n---\n\n### 1. 新增：红果账号页「复制 Cookie」\n\n「设置 → 红果账号」里，登录之后账号卡下面多了一颗**复制 Cookie** 按钮。点一下把当前登录凭据整段复制到剪贴板，会提示复制了多少字符。\n\n用途只有一个：**排查问题时把它发给开发者**。这是账号凭据，别公开贴到群里或 issue 里。它只在你点按钮时读一次，不写日志、不进诊断报告、不参与云同步。\n\n### 2. 历史页：进页面自动补剧名封面\n\n上一版改成了手动按钮，但没人会去点它，所以列表一直显示「剧集 7675343044727557144」。现在改成：列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie（500 多个字符），正常客户端带的是登录令牌的**前 56 个字符**。这一版按真凭据取前 56 位，取不到就不带。\n\n另外报错里会带上服务端返回的原话，不再只有「风控中」三个字。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 装过 1.1.12 正式版的可以直接覆盖安装，记录和设置都保留。"
     }
   ]
 }
