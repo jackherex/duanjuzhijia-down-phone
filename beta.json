@@ -1,13 +1,13 @@
 {
-  "version": "1.0.97+98",
-  "versionName": "1.0.97",
-  "build": 98,
-  "versionCode": 10097,
+  "version": "1.0.98+99",
+  "versionName": "1.0.98",
+  "build": 99,
+  "versionCode": 10098,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-26T14:12:21Z",
-  "notes": "**手机版 1.0.97+98**\n\n- 调整：**竖屏视频的上下滑改了**。以前竖屏是「往上滑下一集、往下滑上一集」，现在跟横屏一样：**左半屏上下滑调亮度，右半屏上下滑调音量**。\n- 说明：**上下滑切集已经去掉**，两种方向统一成一套手势，不会再出现\"想调亮度结果换了集\"。想换集用底栏的上一集 / 下一集按钮，或者点开选集面板。\n- 保留：滑动手势**实时跟随**——滑的过程中画面亮度和声音就跟着变，松手后数值条停一下自动淡出；提示会显示「亮度 62%」「音量 45%」这样的百分比。\n- 保留：**手势锁**照旧。锁上之后滑动不再改亮度 / 音量，只剩单击唤出控制条（解锁按钮在控制条上）。\n- 保留：**长按画面加速**、双击播放 / 暂停、左右滑拖进度条，都没动。\n- 保留：上一版的**观看统计页新版式**，入口仍在右上角「更多」（三个点）菜单第一项。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.97-98-beta",
+  "publishedAt": "2026-10-27T01:21:58Z",
+  "notes": "**手机版 1.0.98+99**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 实测：同一集连续点 10 次播放，10 次全部成功，最慢一次 1.7 秒。\n- 保留：**竖屏 / 横屏手势统一** —— 左半屏上下滑调亮度、右半屏上下滑调音量（上下滑切集已去掉）。\n- 保留：**观看统计**（右上角「更多」菜单第一项）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.98-99-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.97+98-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.97-98-beta/duanjuzhijia2-1.0.97%2B98-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.0.98+99-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.98-99-beta/duanjuzhijia2-1.0.98%2B99-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.97-98-beta/duanjuzhijia2-1.0.97%2B98-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.97-98-beta/duanjuzhijia2-1.0.97%2B98-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.97-98-beta/duanjuzhijia2-1.0.97%2B98-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.97-98-beta/duanjuzhijia2-1.0.97%2B98-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.98-99-beta/duanjuzhijia2-1.0.98%2B99-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.98-99-beta/duanjuzhijia2-1.0.98%2B99-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.98-99-beta/duanjuzhijia2-1.0.98%2B99-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.98-99-beta/duanjuzhijia2-1.0.98%2B99-arm64-v8a.apk"
       ],
-      "size": 35927534,
-      "sha256": "cd3d660be04b2495d8472f368835572e352c96968260789b7b7fd61c61ba227c",
-      "notes": "**手机版 1.0.97+98**\n\n- 调整：**竖屏视频的上下滑改了**。以前竖屏是「往上滑下一集、往下滑上一集」，现在跟横屏一样：**左半屏上下滑调亮度，右半屏上下滑调音量**。\n- 说明：**上下滑切集已经去掉**，两种方向统一成一套手势，不会再出现\"想调亮度结果换了集\"。想换集用底栏的上一集 / 下一集按钮，或者点开选集面板。\n- 保留：滑动手势**实时跟随**——滑的过程中画面亮度和声音就跟着变，松手后数值条停一下自动淡出；提示会显示「亮度 62%」「音量 45%」这样的百分比。\n- 保留：**手势锁**照旧。锁上之后滑动不再改亮度 / 音量，只剩单击唤出控制条（解锁按钮在控制条上）。\n- 保留：**长按画面加速**、双击播放 / 暂停、左右滑拖进度条，都没动。\n- 保留：上一版的**观看统计页新版式**，入口仍在右上角「更多」（三个点）菜单第一项。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 35927646,
+      "sha256": "e7e12a0c861f1c7e7ca3596001416141fb8513a93547ec273704ffc24f84f116",
+      "notes": "**手机版 1.0.98+99**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 实测：同一集连续点 10 次播放，10 次全部成功，最慢一次 1.7 秒。\n- 保留：**竖屏 / 横屏手势统一** —— 左半屏上下滑调亮度、右半屏上下滑调音量（上下滑切集已去掉）。\n- 保留：**观看统计**（右上角「更多」菜单第一项）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
