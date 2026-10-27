@@ -1,13 +1,13 @@
 {
-  "version": "1.1.22+123",
-  "versionName": "1.1.22",
-  "build": 123,
-  "versionCode": 10122,
+  "version": "1.1.23+124",
+  "versionName": "1.1.23",
+  "build": 124,
+  "versionCode": 10123,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T13:59:11Z",
-  "notes": "## 手机版 1.1.22+123\n\n这一版只改一件事：**把评论入口做成看得见的按钮**。\n\n---\n\n### 上一版的问题\n\n1.1.21 把「评论」做成了一颗**纯图标**按钮，混在播放 / 下载 / 刷新那排里 —— 四个图标并排，认不出来是哪个。有用户直接问「评论在哪」。\n\n### 现在\n\n详情页那颗按钮改成**带文字**的 `评论`：\n\n```\n[ 立即播放 ]  [下载]  [评论]  [刷新]\n```\n\n- 只有红果片源显示（其它站源没有官方评论数据源）。\n- 点开后是底部面板，两个标签页：**本集评论**（可翻页）/ **剧评**（官网节选）。\n\n### 如果你之前没找到\n\n先确认「设置 → 版本」显示的是 **1.1.22**。低于这个版本没有评论功能。\n\n---\n\n### 1.1.21 已包含的内容\n\n- **本集评论**：App 接口全量数据，首屏 20 条，底部「加载更多」按游标翻页。\n- **剧评**：官网公开页节选，带评分（例：7.9 分 / 808 人评价）。\n- 只读，没有发评论 / 回复 / 点赞。\n\n---\n\n### 说明\n\n- 这版只动手机版。电脑和 TV 的原生层已同步，界面下一版补。\n- 覆盖安装即可。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.22-123",
+  "publishedAt": "2026-10-27T14:28:33Z",
+  "notes": "## 手机版 1.1.23+124\n\n这一版把**评论**、**剧评**、**相关作品**三个入口都挪到了你说的地方。\n\n---\n\n### 1. 评论区挪到播放页（替换掉「定时关闭」）\n\n播放页那排方块现在是：\n\n```\n[倍速]  [清晰度]  [评论]  [有声书]\n```\n\n「评论」用的就是原来「定时关闭」那颗月亮的位置，图标换成了对话气泡。\n\n> 定时关闭没有删，从「播放设置」里还能进。\n\n点开后是底部面板：**本集评论**（可翻页）/ **剧评** 两个标签。\n\n### 2. 详情页新增「查看剧评」\n\n在「收藏到红果」旁边，点开直接落在**剧评**标签页，不用再自己切。\n\n### 3. 详情页新增「相关作品」\n\n同样在「收藏到红果」旁边。点开是面板，列出这部剧的相关季：\n\n- 已上线的可以直接点进去；\n- **待上线的标成「待上线 · 只能预约」**，点击不跳转（还没播，点进去也放不了）。\n\n### 4. 顺手修的一个丢字段\n\n之前服务端给相关作品标了「待上线」，但界面这一层没读这个字段，到手上就没了 —— 看起来像一条能点的普通作品。这次补上了。\n\n---\n\n### 说明\n\n- 这版只出手机版。电脑版代码已同步（入口位置一样），TV 版按你说的改成页面上直接铺开，下一轮出包。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.23-124",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.22+123-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.22-123/duanjuzhijia2-1.1.22%2B123-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.23+124-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.23-124/duanjuzhijia2-1.1.23%2B124-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.22-123/duanjuzhijia2-1.1.22%2B123-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.22-123/duanjuzhijia2-1.1.22%2B123-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.22-123/duanjuzhijia2-1.1.22%2B123-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.22-123/duanjuzhijia2-1.1.22%2B123-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.23-124/duanjuzhijia2-1.1.23%2B124-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.23-124/duanjuzhijia2-1.1.23%2B124-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.23-124/duanjuzhijia2-1.1.23%2B124-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.23-124/duanjuzhijia2-1.1.23%2B124-arm64-v8a.apk"
       ],
-      "size": 36135590,
-      "sha256": "604691d3293052275859c6ecf497ad374eddf073bcb89203e66a5320db4a3381",
-      "notes": "## 手机版 1.1.22+123\n\n这一版只改一件事：**把评论入口做成看得见的按钮**。\n\n---\n\n### 上一版的问题\n\n1.1.21 把「评论」做成了一颗**纯图标**按钮，混在播放 / 下载 / 刷新那排里 —— 四个图标并排，认不出来是哪个。有用户直接问「评论在哪」。\n\n### 现在\n\n详情页那颗按钮改成**带文字**的 `评论`：\n\n```\n[ 立即播放 ]  [下载]  [评论]  [刷新]\n```\n\n- 只有红果片源显示（其它站源没有官方评论数据源）。\n- 点开后是底部面板，两个标签页：**本集评论**（可翻页）/ **剧评**（官网节选）。\n\n### 如果你之前没找到\n\n先确认「设置 → 版本」显示的是 **1.1.22**。低于这个版本没有评论功能。\n\n---\n\n### 1.1.21 已包含的内容\n\n- **本集评论**：App 接口全量数据，首屏 20 条，底部「加载更多」按游标翻页。\n- **剧评**：官网公开页节选，带评分（例：7.9 分 / 808 人评价）。\n- 只读，没有发评论 / 回复 / 点赞。\n\n---\n\n### 说明\n\n- 这版只动手机版。电脑和 TV 的原生层已同步，界面下一版补。\n- 覆盖安装即可。"
+      "size": 36143542,
+      "sha256": "6bf37c8da5b2072ffe1057179a1328d3b54ec1bbe108e482d26cf496424c0ed7",
+      "notes": "## 手机版 1.1.23+124\n\n这一版把**评论**、**剧评**、**相关作品**三个入口都挪到了你说的地方。\n\n---\n\n### 1. 评论区挪到播放页（替换掉「定时关闭」）\n\n播放页那排方块现在是：\n\n```\n[倍速]  [清晰度]  [评论]  [有声书]\n```\n\n「评论」用的就是原来「定时关闭」那颗月亮的位置，图标换成了对话气泡。\n\n> 定时关闭没有删，从「播放设置」里还能进。\n\n点开后是底部面板：**本集评论**（可翻页）/ **剧评** 两个标签。\n\n### 2. 详情页新增「查看剧评」\n\n在「收藏到红果」旁边，点开直接落在**剧评**标签页，不用再自己切。\n\n### 3. 详情页新增「相关作品」\n\n同样在「收藏到红果」旁边。点开是面板，列出这部剧的相关季：\n\n- 已上线的可以直接点进去；\n- **待上线的标成「待上线 · 只能预约」**，点击不跳转（还没播，点进去也放不了）。\n\n### 4. 顺手修的一个丢字段\n\n之前服务端给相关作品标了「待上线」，但界面这一层没读这个字段，到手上就没了 —— 看起来像一条能点的普通作品。这次补上了。\n\n---\n\n### 说明\n\n- 这版只出手机版。电脑版代码已同步（入口位置一样），TV 版按你说的改成页面上直接铺开，下一轮出包。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
