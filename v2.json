@@ -1,13 +1,13 @@
 {
-  "version": "1.1.19+120",
-  "versionName": "1.1.19",
-  "build": 120,
-  "versionCode": 10119,
+  "version": "1.1.20+121",
+  "versionName": "1.1.20",
+  "build": 121,
+  "versionCode": 10120,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T12:44:20Z",
-  "notes": "## 手机版 1.1.19+120\n\n这一版只加一个排查用的入口，其余和 1.1.18 一样。\n\n---\n\n### 新增：红果账号页「显示二维码」\n\n「设置 → 红果账号」登录之后，账号卡下面除了「复制 Cookie」，还多一颗 **显示二维码**。点开会把当前登录凭据画成二维码，底下标着字符数。\n\n用途：**复制粘贴传不出去的时候改用截图**。整段凭据有好几百个字符，粘到聊天框里容易被截断或打乱（`sessionid` 丢了、`store-region` 重复几十遍），而二维码自带纠错，截歪一点也能还原。\n\n### 1.1.18 已经包含的\n\n- **复制 Cookie**：读取时按白名单重排去重，复制出来是干净的一条（约 290 字符，`sessionid` 打头），不用重新登录。\n- **历史页自动补剧名封面**：进页面先出列表，后台补完原地替换，不用点按钮。\n- **收藏**：`x-tt-token` 改成带真凭据前 56 位；报错带服务端原话。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.19-120",
+  "publishedAt": "2026-10-27T13:26:43Z",
+  "notes": "## 手机版 1.1.20+121\n\n这一版**终于修好了红果收藏和红果预约**。根因是签名算法里两处算错了，不是风控、也不是账号问题。\n\n---\n\n### 1. 红果收藏：能加了\n\n之前点爱心一直提示「红果风控中」。现在正常了。\n\n真正的错在**签名**：`x-medusa` 这个头我们算错了，服务端一看就判定请求不可信。而 `x-medusa` 里嵌着另一段叫 `hashF13` 的计算，那段也错了一处。\n\n两处都是拿正常客户端的请求一个字节一个字节比出来的：\n\n- `hashF13` 最后一步少做了一次循环右移；\n- 加密器里有一张 4 个值的表，本该按时间戳取**其中一张**，我们误以为四个都一样，把它们全拼进去了。\n\n### 2. 红果预约：能读了\n\n之前「红果预约」两个分类都是空的。原因除了上面那两处，还有一条：预约接口**必须用完整签名**，而我们读请求走的是简化签名，服务端直接回空。\n\n现在跟正常客户端一致：读、写一律完整签名。实测你账号的数据：\n\n- 已上线 **2 部**：谁让这个悍匪修仙的！第四季、十年质子第五季\n- 待上线 **4 部**：谁说纨绔不能当状元！第六季（预计 10 月 28 日）、爆笑修仙：师叔的法宝有点怪第十季（预计 1 周内）、冤种兄妹绑错系统爆红了第五季（预计 11 月 14 日）等\n\n### 3. 顺带\n\n- 历史页进页面自动补剧名封面（1.1.18 起）。\n- 红果账号页有「复制 Cookie」和「显示二维码」，排查用。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动（代码已同步，等下一版一起发）。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.20-121",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.19+120-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.20+121-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk"
       ],
-      "size": 36082030,
-      "sha256": "87525b187bb5c2287cc4e88e7328e99a72a0e31838c20b042ac6c7ee54cf2e1d",
-      "notes": "## 手机版 1.1.19+120\n\n这一版只加一个排查用的入口，其余和 1.1.18 一样。\n\n---\n\n### 新增：红果账号页「显示二维码」\n\n「设置 → 红果账号」登录之后，账号卡下面除了「复制 Cookie」，还多一颗 **显示二维码**。点开会把当前登录凭据画成二维码，底下标着字符数。\n\n用途：**复制粘贴传不出去的时候改用截图**。整段凭据有好几百个字符，粘到聊天框里容易被截断或打乱（`sessionid` 丢了、`store-region` 重复几十遍），而二维码自带纠错，截歪一点也能还原。\n\n### 1.1.18 已经包含的\n\n- **复制 Cookie**：读取时按白名单重排去重，复制出来是干净的一条（约 290 字符，`sessionid` 打头），不用重新登录。\n- **历史页自动补剧名封面**：进页面先出列表，后台补完原地替换，不用点按钮。\n- **收藏**：`x-tt-token` 改成带真凭据前 56 位；报错带服务端原话。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
+      "size": 36081682,
+      "sha256": "d2b435ba7d3dd52ceaf16070fee17f6c87729593ca38d6349451054a462b3de9",
+      "notes": "## 手机版 1.1.20+121\n\n这一版**终于修好了红果收藏和红果预约**。根因是签名算法里两处算错了，不是风控、也不是账号问题。\n\n---\n\n### 1. 红果收藏：能加了\n\n之前点爱心一直提示「红果风控中」。现在正常了。\n\n真正的错在**签名**：`x-medusa` 这个头我们算错了，服务端一看就判定请求不可信。而 `x-medusa` 里嵌着另一段叫 `hashF13` 的计算，那段也错了一处。\n\n两处都是拿正常客户端的请求一个字节一个字节比出来的：\n\n- `hashF13` 最后一步少做了一次循环右移；\n- 加密器里有一张 4 个值的表，本该按时间戳取**其中一张**，我们误以为四个都一样，把它们全拼进去了。\n\n### 2. 红果预约：能读了\n\n之前「红果预约」两个分类都是空的。原因除了上面那两处，还有一条：预约接口**必须用完整签名**，而我们读请求走的是简化签名，服务端直接回空。\n\n现在跟正常客户端一致：读、写一律完整签名。实测你账号的数据：\n\n- 已上线 **2 部**：谁让这个悍匪修仙的！第四季、十年质子第五季\n- 待上线 **4 部**：谁说纨绔不能当状元！第六季（预计 10 月 28 日）、爆笑修仙：师叔的法宝有点怪第十季（预计 1 周内）、冤种兄妹绑错系统爆红了第五季（预计 11 月 14 日）等\n\n### 3. 顺带\n\n- 历史页进页面自动补剧名封面（1.1.18 起）。\n- 红果账号页有「复制 Cookie」和「显示二维码」，排查用。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动（代码已同步，等下一版一起发）。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
