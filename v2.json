@@ -1,13 +1,13 @@
 {
-  "version": "1.1.20+121",
-  "versionName": "1.1.20",
-  "build": 121,
-  "versionCode": 10120,
+  "version": "1.1.21+122",
+  "versionName": "1.1.21",
+  "build": 122,
+  "versionCode": 10121,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T13:26:43Z",
-  "notes": "## 手机版 1.1.20+121\n\n这一版**终于修好了红果收藏和红果预约**。根因是签名算法里两处算错了，不是风控、也不是账号问题。\n\n---\n\n### 1. 红果收藏：能加了\n\n之前点爱心一直提示「红果风控中」。现在正常了。\n\n真正的错在**签名**：`x-medusa` 这个头我们算错了，服务端一看就判定请求不可信。而 `x-medusa` 里嵌着另一段叫 `hashF13` 的计算，那段也错了一处。\n\n两处都是拿正常客户端的请求一个字节一个字节比出来的：\n\n- `hashF13` 最后一步少做了一次循环右移；\n- 加密器里有一张 4 个值的表，本该按时间戳取**其中一张**，我们误以为四个都一样，把它们全拼进去了。\n\n### 2. 红果预约：能读了\n\n之前「红果预约」两个分类都是空的。原因除了上面那两处，还有一条：预约接口**必须用完整签名**，而我们读请求走的是简化签名，服务端直接回空。\n\n现在跟正常客户端一致：读、写一律完整签名。实测你账号的数据：\n\n- 已上线 **2 部**：谁让这个悍匪修仙的！第四季、十年质子第五季\n- 待上线 **4 部**：谁说纨绔不能当状元！第六季（预计 10 月 28 日）、爆笑修仙：师叔的法宝有点怪第十季（预计 1 周内）、冤种兄妹绑错系统爆红了第五季（预计 11 月 14 日）等\n\n### 3. 顺带\n\n- 历史页进页面自动补剧名封面（1.1.18 起）。\n- 红果账号页有「复制 Cookie」和「显示二维码」，排查用。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动（代码已同步，等下一版一起发）。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.20-121",
+  "publishedAt": "2026-10-27T13:46:48Z",
+  "notes": "## 手机版 1.1.21+122\n\n这一版新增**评论**和**剧评**，都是只读。\n\n---\n\n### 1. 本集评论\n\n红果剧集的详情页多了一颗「评论」按钮（就在下载 / 刷新那排）。点开是一个面板：\n\n- **本集评论**：走红果 App 接口，**全量**数据。首屏 20 条，底部「加载更多」按服务端游标一直往下翻，翻到底显示「没有更多了」。\n- 面板顶部显示总条数，比如「本集评论 1950」。\n\n实测某部漫剧第一集：总数 1950 条，首屏 20 条正常，翻页正常。\n\n### 2. 剧评\n\n同一个面板的第二个标签页：\n\n- 整剧剧评 + 评分（例：7.9 分 / 808 人评价），带每条的个人评分；\n- 下面附「本集公开评论」。\n\n⚠️ 剧评来自官网公开页，只有**节选**，面板里写明了这一点 —— 想看全部请用「本集评论」那一页。\n\n### 3. 只读\n\n没有发评论、回复、点赞的入口。上游也没有开放这些写接口，摆一颗点了没反应的按钮比不摆更糟。\n\n### 4. 适用范围\n\n只有红果片源有评论入口；其它站源（爱奇艺 / 腾讯 / 优酷）没有官方评论数据源，不显示这颗按钮。\n\n---\n\n### 说明\n\n- 这版只动手机版。电脑和 TV 的原生层已经同步好了，界面下一版再补。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.21-122",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.20+121-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.21+122-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.21-122/duanjuzhijia2-1.1.21%2B122-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.20-121/duanjuzhijia2-1.1.20%2B121-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.21-122/duanjuzhijia2-1.1.21%2B122-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.21-122/duanjuzhijia2-1.1.21%2B122-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.21-122/duanjuzhijia2-1.1.21%2B122-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.21-122/duanjuzhijia2-1.1.21%2B122-arm64-v8a.apk"
       ],
-      "size": 36081682,
-      "sha256": "d2b435ba7d3dd52ceaf16070fee17f6c87729593ca38d6349451054a462b3de9",
-      "notes": "## 手机版 1.1.20+121\n\n这一版**终于修好了红果收藏和红果预约**。根因是签名算法里两处算错了，不是风控、也不是账号问题。\n\n---\n\n### 1. 红果收藏：能加了\n\n之前点爱心一直提示「红果风控中」。现在正常了。\n\n真正的错在**签名**：`x-medusa` 这个头我们算错了，服务端一看就判定请求不可信。而 `x-medusa` 里嵌着另一段叫 `hashF13` 的计算，那段也错了一处。\n\n两处都是拿正常客户端的请求一个字节一个字节比出来的：\n\n- `hashF13` 最后一步少做了一次循环右移；\n- 加密器里有一张 4 个值的表，本该按时间戳取**其中一张**，我们误以为四个都一样，把它们全拼进去了。\n\n### 2. 红果预约：能读了\n\n之前「红果预约」两个分类都是空的。原因除了上面那两处，还有一条：预约接口**必须用完整签名**，而我们读请求走的是简化签名，服务端直接回空。\n\n现在跟正常客户端一致：读、写一律完整签名。实测你账号的数据：\n\n- 已上线 **2 部**：谁让这个悍匪修仙的！第四季、十年质子第五季\n- 待上线 **4 部**：谁说纨绔不能当状元！第六季（预计 10 月 28 日）、爆笑修仙：师叔的法宝有点怪第十季（预计 1 周内）、冤种兄妹绑错系统爆红了第五季（预计 11 月 14 日）等\n\n### 3. 顺带\n\n- 历史页进页面自动补剧名封面（1.1.18 起）。\n- 红果账号页有「复制 Cookie」和「显示二维码」，排查用。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动（代码已同步，等下一版一起发）。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
+      "size": 36135734,
+      "sha256": "1421af6dd437e49ab0122d56356d4b8b9f492feb75551ac74cd38c824695deb8",
+      "notes": "## 手机版 1.1.21+122\n\n这一版新增**评论**和**剧评**，都是只读。\n\n---\n\n### 1. 本集评论\n\n红果剧集的详情页多了一颗「评论」按钮（就在下载 / 刷新那排）。点开是一个面板：\n\n- **本集评论**：走红果 App 接口，**全量**数据。首屏 20 条，底部「加载更多」按服务端游标一直往下翻，翻到底显示「没有更多了」。\n- 面板顶部显示总条数，比如「本集评论 1950」。\n\n实测某部漫剧第一集：总数 1950 条，首屏 20 条正常，翻页正常。\n\n### 2. 剧评\n\n同一个面板的第二个标签页：\n\n- 整剧剧评 + 评分（例：7.9 分 / 808 人评价），带每条的个人评分；\n- 下面附「本集公开评论」。\n\n⚠️ 剧评来自官网公开页，只有**节选**，面板里写明了这一点 —— 想看全部请用「本集评论」那一页。\n\n### 3. 只读\n\n没有发评论、回复、点赞的入口。上游也没有开放这些写接口，摆一颗点了没反应的按钮比不摆更糟。\n\n### 4. 适用范围\n\n只有红果片源有评论入口；其它站源（爱奇艺 / 腾讯 / 优酷）没有官方评论数据源，不显示这颗按钮。\n\n---\n\n### 说明\n\n- 这版只动手机版。电脑和 TV 的原生层已经同步好了，界面下一版再补。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
