@@ -1,13 +1,13 @@
 {
-  "version": "1.1.18+119",
-  "versionName": "1.1.18",
-  "build": 119,
-  "versionCode": 10118,
+  "version": "1.1.19+120",
+  "versionName": "1.1.19",
+  "build": 120,
+  "versionCode": 10119,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T12:32:26Z",
-  "notes": "## 手机版 1.1.18+119\n\n这一版把前面几版的改动一起发出来，另外修了「复制 Cookie 复制出来太长、粘不动」的问题。\n\n---\n\n### 1. 红果账号页新增「复制 Cookie」，而且复制出来是干净的一条\n\n「设置 → 红果账号」登录之后，账号卡下面有 **复制 Cookie** 按钮。\n\n之前复制出来是 800 多个字符、`store-region` / `passport_csrf_token` 重复几十遍 —— 因为存的是登录当天「全量倒出来」的那份。现在**读取时**按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的丢掉。**不用重新登录**。\n\n正常应该长这样，一条、几百字符：\n\n```\nsessionid=xxx; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条同样是 800 多字符带一堆重复项。\n\n### 2. 历史页：进页面自动补剧名封面\n\n以前要手动点右上角按钮，没人会去点，列表一直显示「剧集 7675343044727557144」。现在列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie，正常客户端带的是登录令牌的前 56 个字符。这一版按真凭据取前 56 位，取不到就不带。报错里也会带上服务端原话，不再只有「风控中」三个字。\n\n⚠️ 这一处**还没在真机上验证过**：收藏能不能写进去，要等你实际点一次才知道。如果还是不行，点「复制 Cookie」把内容发我，我这边能直接复现。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.18-119",
+  "publishedAt": "2026-10-27T12:44:20Z",
+  "notes": "## 手机版 1.1.19+120\n\n这一版只加一个排查用的入口，其余和 1.1.18 一样。\n\n---\n\n### 新增：红果账号页「显示二维码」\n\n「设置 → 红果账号」登录之后，账号卡下面除了「复制 Cookie」，还多一颗 **显示二维码**。点开会把当前登录凭据画成二维码，底下标着字符数。\n\n用途：**复制粘贴传不出去的时候改用截图**。整段凭据有好几百个字符，粘到聊天框里容易被截断或打乱（`sessionid` 丢了、`store-region` 重复几十遍），而二维码自带纠错，截歪一点也能还原。\n\n### 1.1.18 已经包含的\n\n- **复制 Cookie**：读取时按白名单重排去重，复制出来是干净的一条（约 290 字符，`sessionid` 打头），不用重新登录。\n- **历史页自动补剧名封面**：进页面先出列表，后台补完原地替换，不用点按钮。\n- **收藏**：`x-tt-token` 改成带真凭据前 56 位；报错带服务端原话。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.19-120",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.18+119-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.19+120-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.18-119/duanjuzhijia2-1.1.18%2B119-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.19-120/duanjuzhijia2-1.1.19%2B120-arm64-v8a.apk"
       ],
-      "size": 36079266,
-      "sha256": "671bd6bba42e8117450976385a4a613fb092d60bff7f744c4c4f465080a00783",
-      "notes": "## 手机版 1.1.18+119\n\n这一版把前面几版的改动一起发出来，另外修了「复制 Cookie 复制出来太长、粘不动」的问题。\n\n---\n\n### 1. 红果账号页新增「复制 Cookie」，而且复制出来是干净的一条\n\n「设置 → 红果账号」登录之后，账号卡下面有 **复制 Cookie** 按钮。\n\n之前复制出来是 800 多个字符、`store-region` / `passport_csrf_token` 重复几十遍 —— 因为存的是登录当天「全量倒出来」的那份。现在**读取时**按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的丢掉。**不用重新登录**。\n\n正常应该长这样，一条、几百字符：\n\n```\nsessionid=xxx; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条同样是 800 多字符带一堆重复项。\n\n### 2. 历史页：进页面自动补剧名封面\n\n以前要手动点右上角按钮，没人会去点，列表一直显示「剧集 7675343044727557144」。现在列表先出来（能马上滚动），紧接着后台自动补一次，补回来原地把名字和封面换上。\n\n### 3. 收藏：换掉了发错的请求头\n\n`x-tt-token` 之前带的是整段 Cookie，正常客户端带的是登录令牌的前 56 个字符。这一版按真凭据取前 56 位，取不到就不带。报错里也会带上服务端原话，不再只有「风控中」三个字。\n\n⚠️ 这一处**还没在真机上验证过**：收藏能不能写进去，要等你实际点一次才知道。如果还是不行，点「复制 Cookie」把内容发我，我这边能直接复现。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
+      "size": 36082030,
+      "sha256": "87525b187bb5c2287cc4e88e7328e99a72a0e31838c20b042ac6c7ee54cf2e1d",
+      "notes": "## 手机版 1.1.19+120\n\n这一版只加一个排查用的入口，其余和 1.1.18 一样。\n\n---\n\n### 新增：红果账号页「显示二维码」\n\n「设置 → 红果账号」登录之后，账号卡下面除了「复制 Cookie」，还多一颗 **显示二维码**。点开会把当前登录凭据画成二维码，底下标着字符数。\n\n用途：**复制粘贴传不出去的时候改用截图**。整段凭据有好几百个字符，粘到聊天框里容易被截断或打乱（`sessionid` 丢了、`store-region` 重复几十遍），而二维码自带纠错，截歪一点也能还原。\n\n### 1.1.18 已经包含的\n\n- **复制 Cookie**：读取时按白名单重排去重，复制出来是干净的一条（约 290 字符，`sessionid` 打头），不用重新登录。\n- **历史页自动补剧名封面**：进页面先出列表，后台补完原地替换，不用点按钮。\n- **收藏**：`x-tt-token` 改成带真凭据前 56 位；报错带服务端原话。\n\n---\n\n### 说明\n\n- 这版只动手机版，电脑和 TV 没动。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
