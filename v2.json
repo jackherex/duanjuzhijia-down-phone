@@ -1,16 +1,16 @@
 {
-  "version": "1.0.94+95",
-  "versionName": "1.0.94",
-  "build": 95,
-  "versionCode": 10094,
+  "version": "1.1.12+113",
+  "versionName": "1.1.12",
+  "build": 113,
+  "versionCode": 10112,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-25T13:13:49Z",
-  "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.0.94-95",
+  "publishedAt": "2026-10-27T09:56:09Z",
+  "notes": "## 手机版 1.1.12+113\n\n这一版只做一件事：**把历史页的卡顿彻底去掉**。\n\n先说清楚 —— 收藏按钮**这版还没修好**，仍然会提示风控。原因我写在最后，需要你配合做一次判断。\n\n---\n\n### 1. 历史页：进页面不再联网，改成右上角一键拉取\n\n你猜得对，就是「一次过同时获取」卡住了。上一版我虽然加了 3 秒硬预算，但只要打开历史页，它还是会去抓网页详情页 —— 一部剧一个页面，约 160 KB，42 部就是 6.7 MB。慢的时候 3 秒也出不来，页面就一直转圈。\n\n现在改成三档，默认那一档**完全不发网络请求**：\n\n| 时机 | 行为 |\n|---|---|\n| 打开历史页 | 只读本地已有的剧名封面缓存，**一个请求都不发**，秒开 |\n| 右上角「拉取剧名封面」 | 你主动点了才联网，最多 25 秒 / 一次 40 部 |\n| 拉完之后 | 结果进 6 小时缓存，再打开还是秒开 |\n\n进页面时如果还有没补上剧名的，列表上方会有一行小字告诉你还剩几部、按钮在哪 —— 不会让你以为「剧集 7671…」就是最终效果。\n\n按钮在标题栏右上角，图标是星星（`auto_awesome`），文字「拉取剧名封面」。拉的过程中按钮转圈 + 显示「拉取中…」，拉完会弹一句结果，比如「补上了 18 部的剧名和封面」。连点两次不会重复抓，第二次基本秒回。\n\n### 2. 顺手改的两处小问题\n\n- 拉取是手动触发的，所以原生侧那批请求**不带**风控重试等待（原来风控重试会让一次拉取白等 17 秒）；\n- 「拉取失败」的提示改成带具体原因，不再只是一句「失败」。\n\n---\n\n### 需要你回一句\n\n**收藏那颗爱心，这版没修。** 麻烦帮我做一件事，能决定下一步往哪查：\n\n1. 在红果 App 里手动收藏一部剧，然后回到我们 App 打开这部剧的详情页 —— 爱心是**已经红着的**吗？\n   - 如果是 → 说明「读收藏状态」这条链路是通的，坏的只是「写」。\n   - 如果不是 → 连读都不对，问题在请求头指纹上，不在写逻辑。\n\n2. 顺手看一下历史页：现在点进去是不是**立刻**就出来了？\n\n**下一步我打算查 `x-tt-token`**：这个头我们现在带的是整段 Cookie，而正常客户端带的是登录令牌的**前 56 个字符**。这个差别在风控眼里可能很明显 —— 一个像是 App 自己拼的，一个像是从浏览器里抄的。但这只能一次改一个变量试，所以先等你上面那句回答。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.12-113",
   "gate": {
-    "salt": "djzj-2026-10-19-4f1a",
-    "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
+    "salt": "djzj-2115cfea85b3",
+    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
     "iterations": 2000,
     "group": "https://t.me/duanjuzhijia",
     "hint": "4 位数字"
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.0.94+95-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
+      "name": "duanjuzhijia2-1.1.12+113-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.0.94-95/duanjuzhijia2-1.0.94%2B95-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.12-113/duanjuzhijia2-1.1.12%2B113-arm64-v8a.apk"
       ],
-      "size": 35894354,
-      "sha256": "4bde92281f0c9083f243d85c4f1fd3deea9d43939e582bcd1f8988f88238b6c8",
-      "notes": "**手机版 1.0.93+94**\n\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。有用户说转得太快，标题还没看完就翻走了，手机上确实是这样。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。平时不用管它，关着就行。\n- 说明：包名没变，可直接覆盖安装，设置和观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 36076690,
+      "sha256": "b48d91e768e07955eaaa9620f96e2537316a37b3e3d91545750697e3716ed5e8",
+      "notes": "## 手机版 1.1.12+113\n\n这一版只做一件事：**把历史页的卡顿彻底去掉**。\n\n先说清楚 —— 收藏按钮**这版还没修好**，仍然会提示风控。原因我写在最后，需要你配合做一次判断。\n\n---\n\n### 1. 历史页：进页面不再联网，改成右上角一键拉取\n\n你猜得对，就是「一次过同时获取」卡住了。上一版我虽然加了 3 秒硬预算，但只要打开历史页，它还是会去抓网页详情页 —— 一部剧一个页面，约 160 KB，42 部就是 6.7 MB。慢的时候 3 秒也出不来，页面就一直转圈。\n\n现在改成三档，默认那一档**完全不发网络请求**：\n\n| 时机 | 行为 |\n|---|---|\n| 打开历史页 | 只读本地已有的剧名封面缓存，**一个请求都不发**，秒开 |\n| 右上角「拉取剧名封面」 | 你主动点了才联网，最多 25 秒 / 一次 40 部 |\n| 拉完之后 | 结果进 6 小时缓存，再打开还是秒开 |\n\n进页面时如果还有没补上剧名的，列表上方会有一行小字告诉你还剩几部、按钮在哪 —— 不会让你以为「剧集 7671…」就是最终效果。\n\n按钮在标题栏右上角，图标是星星（`auto_awesome`），文字「拉取剧名封面」。拉的过程中按钮转圈 + 显示「拉取中…」，拉完会弹一句结果，比如「补上了 18 部的剧名和封面」。连点两次不会重复抓，第二次基本秒回。\n\n### 2. 顺手改的两处小问题\n\n- 拉取是手动触发的，所以原生侧那批请求**不带**风控重试等待（原来风控重试会让一次拉取白等 17 秒）；\n- 「拉取失败」的提示改成带具体原因，不再只是一句「失败」。\n\n---\n\n### 需要你回一句\n\n**收藏那颗爱心，这版没修。** 麻烦帮我做一件事，能决定下一步往哪查：\n\n1. 在红果 App 里手动收藏一部剧，然后回到我们 App 打开这部剧的详情页 —— 爱心是**已经红着的**吗？\n   - 如果是 → 说明「读收藏状态」这条链路是通的，坏的只是「写」。\n   - 如果不是 → 连读都不对，问题在请求头指纹上，不在写逻辑。\n\n2. 顺手看一下历史页：现在点进去是不是**立刻**就出来了？\n\n**下一步我打算查 `x-tt-token`**：这个头我们现在带的是整段 Cookie，而正常客户端带的是登录令牌的**前 56 个字符**。这个差别在风控眼里可能很明显 —— 一个像是 App 自己拼的，一个像是从浏览器里抄的。但这只能一次改一个变量试，所以先等你上面那句回答。"
     }
   ]
 }
