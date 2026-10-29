@@ -1,13 +1,13 @@
 {
-  "version": "4.5.0+141",
-  "versionName": "4.5.0",
-  "build": 141,
-  "versionCode": 42500,
+  "version": "4.5.3+144",
+  "versionName": "4.5.3",
+  "build": 144,
+  "versionCode": 42503,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-28T14:52:30Z",
-  "notes": "## 4.5.0 手机版\n\n### 新增功能\n\n**排行榜**\n- 全新「排行榜」页面，接入红果官方榜单：热播榜、臻果榜、预约榜、新剧榜、热搜榜、必看榜、收藏榜。\n- 热播榜内容来自站源榜单，其余子榜走红果官方接口。\n- 榜单支持上滑自动续载，可一键直达「预约」页。\n\n**找剧**\n- 新增「找剧」页，按体裁 / 主题 / 设定 / 时间四个维度组合筛选。\n- 每个维度默认展示 5 个选项，点「更多」展开该维度全部内容，其它维度不受影响。\n- 筛选区滚动时自动收起，展开只由顶栏按钮控制，不会自己弹出来挡内容。\n- 结果海报尺寸与首页完全一致。\n\n**新剧榜**\n- 新增「上新日历」：按天查看待上线剧集，支持预约 / 取消预约。\n- 已上线的剧集显示绿色「已上线」标签，右侧直接给「观看」按钮。\n- 新增「新剧推荐」：竖向流式加载，滑到底自动续载下一页。\n\n**详情页**\n- 新增「演职员」模块：头像、姓名、饰演角色，点名字可进入创作者主页。\n- 简介缺失时自动回退到红果官方简介。\n\n**播放页**\n- 新增「评论区」入口，可查看当前剧集的用户评论。\n\n**手机遥控**\n- 遥控网页新增「新剧」「找剧」两个页签。\n- 「预约」页新增红果账号的预约列表。\n- 「榜单」页改用红果官方榜单。\n\n### 界面调整\n- 底部导航精简为：发现 / 追剧 / 最近观看 / 新剧榜。\n- 「排行榜」入口回到顶栏左上角那颗「榜单」。\n- 顶栏「分类」入口改为「找剧」。\n- 「下载」入口移入 设置 → 用户与下载 → 下载管理。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.0-141",
+  "publishedAt": "2026-10-29T08:21:07Z",
+  "notes": "## 短剧之家 4.5.3\n\n### 播放设置\n\n- 新增 **「亮度控制」**：可选 **播放器** / **手机系统**\n  - **播放器（默认）**：在播放器里滑左半屏调亮度，会记住上次调到的值，退出播放页自动还原\n  - **手机系统**：播放器完全不碰屏幕亮度，每次播放就是手机当前亮度，也不记忆\n  - 位置：**设置 → 界面与播放 → 播放设置 → 画面**\n- 播放器亮度的最低档更暗了，可以压到接近系统最暗（原来最暗还偏亮一截）\n\n### 全屏选集\n\n- **每 50 集一段**（01-50 / 51-100 / …），几百集的长剧不用一路往下滑\n- 多列小格子，一屏能看到几十集\n- **当前集**用品牌色高亮，右上角有小音量条图标\n- **打开就自动定位到当前集**，不用自己找\n- 分段行左侧有「定位当前」，随时一键跳回正在播的那一集\n- 选集窗口改成**居中偏下的小窗**（约七成宽），不再盖住整个画面\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录与本机预约都会保留\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.3-144",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.5.0+141-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.0-141/duanjuzhijia2-4.5.0%2B141-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.5.3+144-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.0-141/duanjuzhijia2-4.5.0%2B141-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.0-141/duanjuzhijia2-4.5.0%2B141-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.0-141/duanjuzhijia2-4.5.0%2B141-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.0-141/duanjuzhijia2-4.5.0%2B141-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk"
       ],
-      "size": 36236882,
-      "sha256": "7f787b15479222c636ef1a270b3de93666be9e8958d73d0a34cbba565bd379ab",
-      "notes": "## 4.5.0 手机版\n\n### 新增功能\n\n**排行榜**\n- 全新「排行榜」页面，接入红果官方榜单：热播榜、臻果榜、预约榜、新剧榜、热搜榜、必看榜、收藏榜。\n- 热播榜内容来自站源榜单，其余子榜走红果官方接口。\n- 榜单支持上滑自动续载，可一键直达「预约」页。\n\n**找剧**\n- 新增「找剧」页，按体裁 / 主题 / 设定 / 时间四个维度组合筛选。\n- 每个维度默认展示 5 个选项，点「更多」展开该维度全部内容，其它维度不受影响。\n- 筛选区滚动时自动收起，展开只由顶栏按钮控制，不会自己弹出来挡内容。\n- 结果海报尺寸与首页完全一致。\n\n**新剧榜**\n- 新增「上新日历」：按天查看待上线剧集，支持预约 / 取消预约。\n- 已上线的剧集显示绿色「已上线」标签，右侧直接给「观看」按钮。\n- 新增「新剧推荐」：竖向流式加载，滑到底自动续载下一页。\n\n**详情页**\n- 新增「演职员」模块：头像、姓名、饰演角色，点名字可进入创作者主页。\n- 简介缺失时自动回退到红果官方简介。\n\n**播放页**\n- 新增「评论区」入口，可查看当前剧集的用户评论。\n\n**手机遥控**\n- 遥控网页新增「新剧」「找剧」两个页签。\n- 「预约」页新增红果账号的预约列表。\n- 「榜单」页改用红果官方榜单。\n\n### 界面调整\n- 底部导航精简为：发现 / 追剧 / 最近观看 / 新剧榜。\n- 「排行榜」入口回到顶栏左上角那颗「榜单」。\n- 顶栏「分类」入口改为「找剧」。\n- 「下载」入口移入 设置 → 用户与下载 → 下载管理。\n"
+      "size": 36242182,
+      "sha256": "6def1ae52b20a436edc0b90f527f8eb17fcc430260ef5d1b9bed2c5e2a0d8af7",
+      "notes": "## 短剧之家 4.5.3\n\n### 播放设置\n\n- 新增 **「亮度控制」**：可选 **播放器** / **手机系统**\n  - **播放器（默认）**：在播放器里滑左半屏调亮度，会记住上次调到的值，退出播放页自动还原\n  - **手机系统**：播放器完全不碰屏幕亮度，每次播放就是手机当前亮度，也不记忆\n  - 位置：**设置 → 界面与播放 → 播放设置 → 画面**\n- 播放器亮度的最低档更暗了，可以压到接近系统最暗（原来最暗还偏亮一截）\n\n### 全屏选集\n\n- **每 50 集一段**（01-50 / 51-100 / …），几百集的长剧不用一路往下滑\n- 多列小格子，一屏能看到几十集\n- **当前集**用品牌色高亮，右上角有小音量条图标\n- **打开就自动定位到当前集**，不用自己找\n- 分段行左侧有「定位当前」，随时一键跳回正在播的那一集\n- 选集窗口改成**居中偏下的小窗**（约七成宽），不再盖住整个画面\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录与本机预约都会保留\n"
     }
   ]
 }
