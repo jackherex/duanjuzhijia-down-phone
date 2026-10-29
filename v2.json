@@ -1,13 +1,13 @@
 {
-  "version": "4.5.3+144",
-  "versionName": "4.5.3",
-  "build": 144,
-  "versionCode": 42503,
+  "version": "4.5.8+149",
+  "versionName": "4.5.8",
+  "build": 149,
+  "versionCode": 42508,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-29T08:21:07Z",
-  "notes": "## 短剧之家 4.5.3\n\n### 播放设置\n\n- 新增 **「亮度控制」**：可选 **播放器** / **手机系统**\n  - **播放器（默认）**：在播放器里滑左半屏调亮度，会记住上次调到的值，退出播放页自动还原\n  - **手机系统**：播放器完全不碰屏幕亮度，每次播放就是手机当前亮度，也不记忆\n  - 位置：**设置 → 界面与播放 → 播放设置 → 画面**\n- 播放器亮度的最低档更暗了，可以压到接近系统最暗（原来最暗还偏亮一截）\n\n### 全屏选集\n\n- **每 50 集一段**（01-50 / 51-100 / …），几百集的长剧不用一路往下滑\n- 多列小格子，一屏能看到几十集\n- **当前集**用品牌色高亮，右上角有小音量条图标\n- **打开就自动定位到当前集**，不用自己找\n- 分段行左侧有「定位当前」，随时一键跳回正在播的那一集\n- 选集窗口改成**居中偏下的小窗**（约七成宽），不再盖住整个画面\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录与本机预约都会保留\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.3-144",
+  "publishedAt": "2026-10-29T09:09:03Z",
+  "notes": "## 短剧之家 4.5.8\n\n### 下载位置\n\n- 「设置 → 下载目录与空间 → 选择下载位置」新增 **自定义位置（文件管理器可见）**，\n  可以挑「下载」「Movies」或 SD 卡里的任意目录\n- 首次使用会引导授予「所有文件访问」权限（Android 11 起必需，否则只能写应用私有目录）\n- 迁移已下载内容时显示**真实进度**：`正在迁移 45% · 还剩 1.2 GB`\n\n### 合集目录\n\n- 合并好的完整视频不再和下载分片混在一起，独立放到\n  **`<你选的目录>/合集/library/<id>/<剧名>.mkv`**\n- 文件名从 `full.mkv` 改成 **剧名**，在文件管理器里能直接认出来\n- 升级前已经合并好的视频不受影响，照常播放\n\n### 本地媒体\n\n- 移除 Emby 导出相关功能（自动导出开关、海报导出、特别篇导出、媒体目录入口）\n- 「本地媒体」页现在只保留合并与播放\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录、追剧与本机预约都会保留\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.8-149",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.5.3+144-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.5.8+149-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.8-149/duanjuzhijia2-4.5.8%2B149-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.3-144/duanjuzhijia2-4.5.3%2B144-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.8-149/duanjuzhijia2-4.5.8%2B149-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.8-149/duanjuzhijia2-4.5.8%2B149-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.8-149/duanjuzhijia2-4.5.8%2B149-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.8-149/duanjuzhijia2-4.5.8%2B149-arm64-v8a.apk"
       ],
-      "size": 36242182,
-      "sha256": "6def1ae52b20a436edc0b90f527f8eb17fcc430260ef5d1b9bed2c5e2a0d8af7",
-      "notes": "## 短剧之家 4.5.3\n\n### 播放设置\n\n- 新增 **「亮度控制」**：可选 **播放器** / **手机系统**\n  - **播放器（默认）**：在播放器里滑左半屏调亮度，会记住上次调到的值，退出播放页自动还原\n  - **手机系统**：播放器完全不碰屏幕亮度，每次播放就是手机当前亮度，也不记忆\n  - 位置：**设置 → 界面与播放 → 播放设置 → 画面**\n- 播放器亮度的最低档更暗了，可以压到接近系统最暗（原来最暗还偏亮一截）\n\n### 全屏选集\n\n- **每 50 集一段**（01-50 / 51-100 / …），几百集的长剧不用一路往下滑\n- 多列小格子，一屏能看到几十集\n- **当前集**用品牌色高亮，右上角有小音量条图标\n- **打开就自动定位到当前集**，不用自己找\n- 分段行左侧有「定位当前」，随时一键跳回正在播的那一集\n- 选集窗口改成**居中偏下的小窗**（约七成宽），不再盖住整个画面\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录与本机预约都会保留\n"
+      "size": 36236766,
+      "sha256": "46f290db819f52bda979ceee7f8b45c6a8a60f02b0d1151004c0a461cc63dc2e",
+      "notes": "## 短剧之家 4.5.8\n\n### 下载位置\n\n- 「设置 → 下载目录与空间 → 选择下载位置」新增 **自定义位置（文件管理器可见）**，\n  可以挑「下载」「Movies」或 SD 卡里的任意目录\n- 首次使用会引导授予「所有文件访问」权限（Android 11 起必需，否则只能写应用私有目录）\n- 迁移已下载内容时显示**真实进度**：`正在迁移 45% · 还剩 1.2 GB`\n\n### 合集目录\n\n- 合并好的完整视频不再和下载分片混在一起，独立放到\n  **`<你选的目录>/合集/library/<id>/<剧名>.mkv`**\n- 文件名从 `full.mkv` 改成 **剧名**，在文件管理器里能直接认出来\n- 升级前已经合并好的视频不受影响，照常播放\n\n### 本地媒体\n\n- 移除 Emby 导出相关功能（自动导出开关、海报导出、特别篇导出、媒体目录入口）\n- 「本地媒体」页现在只保留合并与播放\n\n### 说明\n\n- 支持 `arm64-v8a`，直接覆盖安装即可，观看记录、追剧与本机预约都会保留\n"
     }
   ]
 }
