@@ -1,13 +1,13 @@
 {
-  "version": "1.1.17+118",
-  "versionName": "1.1.17",
-  "build": 118,
-  "versionCode": 10117,
+  "version": "4.5.11+152",
+  "versionName": "4.5.11",
+  "build": 152,
+  "versionCode": 42511,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T12:18:21Z",
-  "notes": "## 手机版 1.1.17+118（测试版）\n\n这一版修的是「复制 Cookie」复制出来**还是又长又乱**的问题。\n\n---\n\n### 复制出来的 Cookie 现在一定是干净的一条\n\n上一版我只改了「登录时怎么拼」，但**复制按钮读的是你登录那天存下来的那份**，所以老账号复制出来还是旧的 800 字符串 —— 里面 `store-region` 重复二十多次、`sessionid` 被挤到后面，粘到聊天框直接被截断。\n\n这一版在**读取的时候**也按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的全丢掉。**不用重新登录**，装上直接点复制就是干净的。\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条也是 800 多字符带一堆重复项，现在和正常客户端一致。\n\n### 复制出来应该长这样\n\n```\nsessionid=xxxxxxxx...; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n一条、几百个字符、以 `sessionid=` 开头。如果复制出来不是这个形状，说明装的还是旧包。\n\n---\n\n### 前两版已经包含的内容\n\n- 历史页进页面自动补剧名封面（不用点按钮）\n- 收藏的 `x-tt-token` 改成带真凭据前 56 位，报错带服务端原话\n\n---\n\n### 说明\n\n- 这版只动手机版。\n- 覆盖安装即可，登录态和记录都保留（正因为保留，才需要这一版的「读时规整」）。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v1.1.17-118-beta",
+  "publishedAt": "2026-11-01T02:33:55Z",
+  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.11-152-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-1.1.17+118-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.17-118-beta/duanjuzhijia2-1.1.17%2B118-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.5.11+152-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.11-152-beta/duanjuzhijia2-4.5.11%2B152-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.17-118-beta/duanjuzhijia2-1.1.17%2B118-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.17-118-beta/duanjuzhijia2-1.1.17%2B118-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.17-118-beta/duanjuzhijia2-1.1.17%2B118-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v1.1.17-118-beta/duanjuzhijia2-1.1.17%2B118-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.11-152-beta/duanjuzhijia2-4.5.11%2B152-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.11-152-beta/duanjuzhijia2-4.5.11%2B152-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.11-152-beta/duanjuzhijia2-4.5.11%2B152-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.11-152-beta/duanjuzhijia2-4.5.11%2B152-arm64-v8a.apk"
       ],
-      "size": 36079322,
-      "sha256": "81956d15e7843e80679e8566a3ca3acb8c661061eba1dbbd5c6c0ba961e18627",
-      "notes": "## 手机版 1.1.17+118（测试版）\n\n这一版修的是「复制 Cookie」复制出来**还是又长又乱**的问题。\n\n---\n\n### 复制出来的 Cookie 现在一定是干净的一条\n\n上一版我只改了「登录时怎么拼」，但**复制按钮读的是你登录那天存下来的那份**，所以老账号复制出来还是旧的 800 字符串 —— 里面 `store-region` 重复二十多次、`sessionid` 被挤到后面，粘到聊天框直接被截断。\n\n这一版在**读取的时候**也按白名单重新过一遍：去重、按固定顺序排（`sessionid` 永远第一个）、白名单之外的全丢掉。**不用重新登录**，装上直接点复制就是干净的。\n\n发给红果的 `Cookie` 头也走同一条规整 —— 之前那条也是 800 多字符带一堆重复项，现在和正常客户端一致。\n\n### 复制出来应该长这样\n\n```\nsessionid=xxxxxxxx...; uid_tt=...; sid_guard=...; ...; store-region=my; store-region-src=uid\n```\n\n一条、几百个字符、以 `sessionid=` 开头。如果复制出来不是这个形状，说明装的还是旧包。\n\n---\n\n### 前两版已经包含的内容\n\n- 历史页进页面自动补剧名封面（不用点按钮）\n- 收藏的 `x-tt-token` 改成带真凭据前 56 位，报错带服务端原话\n\n---\n\n### 说明\n\n- 这版只动手机版。\n- 覆盖安装即可，登录态和记录都保留（正因为保留，才需要这一版的「读时规整」）。"
+      "size": 36241214,
+      "sha256": "dd7f8a1118642ffa379a3800f2d70e45169cd95e9e763886bf10d52c8df315e7",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     }
   ]
 }
