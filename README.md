@@ -11,6 +11,16 @@
 
 > 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
 
+## 界面预览
+
+| 首页 | 分类推荐 | 详情页 | 选集与演职 |
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/01-home.jpg" width="200"> | <img src="screenshots/02-home-rows.jpg" width="200"> | <img src="screenshots/03-detail.jpg" width="200"> | <img src="screenshots/04-episodes-cast.jpg" width="200"> |
+
+| 追剧 | 最近观看 | 新剧榜 | 设置 |
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/05-follow.jpg" width="200"> | <img src="screenshots/06-history.jpg" width="200"> | <img src="screenshots/07-new-drama.jpg" width="200"> | <img src="screenshots/08-settings.jpg" width="200"> |
+
 ## 三步开始使用
 
 1. 点上面的按钮，打开最新版下载页。
