@@ -1,13 +1,13 @@
 {
-  "version": "4.6.3+162",
-  "versionName": "4.6.3",
-  "build": 162,
-  "versionCode": 42603,
+  "version": "4.6.5+164",
+  "versionName": "4.6.5",
+  "build": 164,
+  "versionCode": 42605,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-07T03:54:38Z",
-  "notes": "- 换上全新图标和启动动画\n- iPhone 也能投屏到 Apple TV 了\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.3-162",
+  "publishedAt": "2026-11-08T02:13:44Z",
+  "notes": "- 手机遥控电视：同一 Wi-Fi 下发现开着的短剧之家 TV，首页出现遥控按钮，一键遥控（电视端需 4.6.31 及以上）\n- 新增「系统解码器直出」播放内核（安卓，播放设置里切换）：更流畅更省电，自动下一集无缝接上\n- 双击画面左 / 右快退 / 快进，秒数可在播放设置里调（默认 10 秒）\n- 换集时弹幕接着飞完，不再突然消失；长按倍速提示改成浅色，不挡画面\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.5-164",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.3+162-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.5+164-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk"
       ],
-      "size": 35746962,
-      "sha256": "5971696e87b85f90738d0dd6d22a8f9d689643db3b1c7f2493f827e54b95a357",
-      "notes": "- 换上全新图标和启动动画\n- iPhone 也能投屏到 Apple TV 了\n"
-    },
-    {
-      "edition": "duanjuzhijia2",
-      "abi": "ios",
-      "name": "duanjuzhijia2-4.6.3+162-ios-unsigned.ipa",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-ios-unsigned.ipa",
-      "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-ios-unsigned.ipa",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-ios-unsigned.ipa",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-ios-unsigned.ipa",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.3-162/duanjuzhijia2-4.6.3%2B162-ios-unsigned.ipa"
-      ],
-      "size": 31829430,
-      "sha256": "fdca04c3b9957e718a65adb46b7f849bd790458360012fa8b66f46bdef1ca1c3",
-      "notes": "- 换上全新图标和启动动画\n- iPhone 也能投屏到 Apple TV 了\n"
+      "size": 36826389,
+      "sha256": "3b7746295a39914e0daa74eefbd4b799c32c8952f1be29c522737736bfa96370",
+      "notes": "- 手机遥控电视：同一 Wi-Fi 下发现开着的短剧之家 TV，首页出现遥控按钮，一键遥控（电视端需 4.6.31 及以上）\n- 新增「系统解码器直出」播放内核（安卓，播放设置里切换）：更流畅更省电，自动下一集无缝接上\n- 双击画面左 / 右快退 / 快进，秒数可在播放设置里调（默认 10 秒）\n- 换集时弹幕接着飞完，不再突然消失；长按倍速提示改成浅色，不挡画面\n"
     }
   ]
 }
