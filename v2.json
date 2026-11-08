@@ -1,13 +1,13 @@
 {
-  "version": "4.6.5+164",
-  "versionName": "4.6.5",
-  "build": 164,
-  "versionCode": 42605,
+  "version": "4.6.6+165",
+  "versionName": "4.6.6",
+  "build": 165,
+  "versionCode": 42606,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-08T02:13:44Z",
-  "notes": "- 手机遥控电视：同一 Wi-Fi 下发现开着的短剧之家 TV，首页出现遥控按钮，一键遥控（电视端需 4.6.31 及以上）\n- 新增「系统解码器直出」播放内核（安卓，播放设置里切换）：更流畅更省电，自动下一集无缝接上\n- 双击画面左 / 右快退 / 快进，秒数可在播放设置里调（默认 10 秒）\n- 换集时弹幕接着飞完，不再突然消失；长按倍速提示改成浅色，不挡画面\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.5-164",
+  "publishedAt": "2026-11-08T03:45:00Z",
+  "notes": "- 系统解码器直出内核：画面两侧的留边改为纯黑，与内置播放器一致\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.6-165",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.5+164-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.6+165-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.6-165/duanjuzhijia2-4.6.6%2B165-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.5-164/duanjuzhijia2-4.6.5%2B164-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.6-165/duanjuzhijia2-4.6.6%2B165-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.6-165/duanjuzhijia2-4.6.6%2B165-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.6-165/duanjuzhijia2-4.6.6%2B165-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.6-165/duanjuzhijia2-4.6.6%2B165-arm64-v8a.apk"
       ],
-      "size": 36826389,
-      "sha256": "3b7746295a39914e0daa74eefbd4b799c32c8952f1be29c522737736bfa96370",
-      "notes": "- 手机遥控电视：同一 Wi-Fi 下发现开着的短剧之家 TV，首页出现遥控按钮，一键遥控（电视端需 4.6.31 及以上）\n- 新增「系统解码器直出」播放内核（安卓，播放设置里切换）：更流畅更省电，自动下一集无缝接上\n- 双击画面左 / 右快退 / 快进，秒数可在播放设置里调（默认 10 秒）\n- 换集时弹幕接着飞完，不再突然消失；长按倍速提示改成浅色，不挡画面\n"
+      "size": 36826341,
+      "sha256": "0546ff384d487a1d44ad180753f29f7fea95d25dd554e06ff516629ea80d1187",
+      "notes": "- 系统解码器直出内核：画面两侧的留边改为纯黑，与内置播放器一致\n"
     }
   ]
 }
