@@ -30,6 +30,21 @@
       "size": 36993720,
       "sha256": "0c0361acd52b27d5504bfbe927ec46fb0629ced3ebacfee022b20a20dd9042cc",
       "notes": "## 手机版 4.6.8+167（临时紧急更新）\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：播放画面比例（满屏 / 拉伸 / 裁剪）、全季下载、重复弹幕合并、全屏显示时间电量\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+    },
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "ios",
+      "name": "duanjuzhijia2-4.6.8+167-ios-unsigned.ipa",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.8-167/duanjuzhijia2-4.6.8%2B167-ios-unsigned.ipa",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.8-167/duanjuzhijia2-4.6.8%2B167-ios-unsigned.ipa",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.8-167/duanjuzhijia2-4.6.8%2B167-ios-unsigned.ipa",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.8-167/duanjuzhijia2-4.6.8%2B167-ios-unsigned.ipa",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.8-167/duanjuzhijia2-4.6.8%2B167-ios-unsigned.ipa"
+      ],
+      "size": 32227302,
+      "sha256": "de1e4880940bf176061935c9ceb6fdb81ffa3da3c3c867d645a60c6057af86a3",
+      "notes": "**临时紧急更新**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 修复：看到一半退到后台、过一会儿回来播放不了\n- 在线更新改为在应用里下载安装包，下完弹出分享面板，交给你的签名软件安装\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」"
     }
   ]
 }
