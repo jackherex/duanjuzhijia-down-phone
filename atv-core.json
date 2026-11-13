@@ -1,0 +1,14 @@
+{
+  "version": "1.5-v5",
+  "name": "libsideloadatv_ffi.so",
+  "size": 34995576,
+  "sha256": "4cf06f86dc7caed8ad902515d3faa2f9607d644157eefa1062bdcd1684399c05",
+  "gzip": true,
+  "urls": [
+    "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/atv-core-1.5-v5/libsideloadatv_ffi.so.gz",
+    "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/atv-core-1.5-v5/libsideloadatv_ffi.so.gz",
+    "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/atv-core-1.5-v5/libsideloadatv_ffi.so.gz",
+    "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/atv-core-1.5-v5/libsideloadatv_ffi.so.gz"
+  ],
+  "notes": "安卓版「安装到 Apple TV」的签名 / 安装组件（arm64-v8a）"
+}
