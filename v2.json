@@ -1,13 +1,13 @@
 {
-  "version": "4.6.11+170",
-  "versionName": "4.6.11",
-  "build": 170,
-  "versionCode": 42611,
+  "version": "4.6.12+171",
+  "versionName": "4.6.12",
+  "build": 171,
+  "versionCode": 42612,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-14T06:18:33Z",
-  "notes": "- 新增「推送到短剧之家投屏端」：播放页「推送到其他设备」里多了一项，给老电视盒子用，连播、弹幕表情、远程拖进度都支持（盒子端投屏 App 即将发布）\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.11-170",
+  "publishedAt": "2026-11-14T15:47:56Z",
+  "notes": "- 「安装到 Apple TV」新增测试版开关；安装、更新、续签前会提醒先在电视上退出短剧之家\n- 投屏端在电视上点「上一集」，手机会自动投上一集\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.12-171",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.11+170-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.12+171-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.12-171/duanjuzhijia2-4.6.12%2B171-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.12-171/duanjuzhijia2-4.6.12%2B171-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.12-171/duanjuzhijia2-4.6.12%2B171-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.12-171/duanjuzhijia2-4.6.12%2B171-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.12-171/duanjuzhijia2-4.6.12%2B171-arm64-v8a.apk"
       ],
-      "size": 48363262,
-      "sha256": "95d0ea178e164399f0218ddb3923452539c91a242a5428829b804bd9a6d9935b",
-      "notes": "- 新增「推送到短剧之家投屏端」：播放页「推送到其他设备」里多了一项，给老电视盒子用，连播、弹幕表情、远程拖进度都支持（盒子端投屏 App 即将发布）\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
-    },
-    {
-      "edition": "duanjuzhijia2",
-      "abi": "ios",
-      "name": "duanjuzhijia2-4.6.11+170-ios-unsigned.ipa",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
-      "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa"
-      ],
-      "size": 39793243,
-      "sha256": "499503cabd1dbdc798dcdf8c385c59ef7d5c7063c4c03c3cae45906f20a3ae9a",
-      "notes": "- 新增「推送到短剧之家投屏端」：播放页「推送到其他设备」里多了一项，给老电视盒子用，连播、弹幕表情、远程拖进度都支持（盒子端投屏 App 即将发布）\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
+      "size": 48365390,
+      "sha256": "3f7c5fd1bdc8debee2d543a52130f0a4896d2620b70dd66199d9c102627c2186",
+      "notes": "- 「安装到 Apple TV」新增测试版开关；安装、更新、续签前会提醒先在电视上退出短剧之家\n- 投屏端在电视上点「上一集」，手机会自动投上一集\n"
     }
   ]
 }
