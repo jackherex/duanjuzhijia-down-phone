@@ -1,13 +1,13 @@
 {
-  "version": "4.6.9+168",
-  "versionName": "4.6.9",
-  "build": 168,
-  "versionCode": 40609,
+  "version": "4.6.10+169",
+  "versionName": "4.6.10",
+  "build": 169,
+  "versionCode": 42610,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-13T12:12:38Z",
-  "notes": "## 手机版 4.6.9+168（临时修复）\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.9-168",
+  "publishedAt": "2026-11-14T00:11:26Z",
+  "notes": "- 播放更快：换集基本秒开，下一集提前准备好\n- 新增「安装到 Apple TV」：手机直接给 Apple TV 装短剧之家，快到期时提醒续签\n- 播放设置新增「调试信息」开关，方便反馈问题\n- 修复横屏左侧一条竖线、弹幕突然蹦出来、竖屏看横屏片被拉变形\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.10-169",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.9+168-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.9-168/duanjuzhijia2-4.6.9%2B168-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.10+169-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.9-168/duanjuzhijia2-4.6.9%2B168-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.9-168/duanjuzhijia2-4.6.9%2B168-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.9-168/duanjuzhijia2-4.6.9%2B168-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.9-168/duanjuzhijia2-4.6.9%2B168-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-arm64-v8a.apk"
       ],
-      "size": 36993452,
-      "sha256": "2059382e58ea4eab373fae4040d3713292f999809783bf0a2238a9de32ce45ca",
-      "notes": "## 手机版 4.6.9+168（临时修复）\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 48340886,
+      "sha256": "c8d0c61201ee08cfd5047331bf52398c765fd89d98f5b75d11c6b7cb422887dd",
+      "notes": "- 播放更快：换集基本秒开，下一集提前准备好\n- 新增「安装到 Apple TV」：手机直接给 Apple TV 装短剧之家，快到期时提醒续签\n- 播放设置新增「调试信息」开关，方便反馈问题\n- 修复横屏左侧一条竖线、弹幕突然蹦出来、竖屏看横屏片被拉变形\n"
+    },
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "ios",
+      "name": "duanjuzhijia2-4.6.10+169-ios-unsigned.ipa",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-ios-unsigned.ipa",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-ios-unsigned.ipa",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-ios-unsigned.ipa",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-ios-unsigned.ipa",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.10-169/duanjuzhijia2-4.6.10%2B169-ios-unsigned.ipa"
+      ],
+      "size": 39769475,
+      "sha256": "1f1c62f5ec42b85d34ad11f17c29eb1862ff35aa1b022bf6cdf61c472cf5fe0a",
+      "notes": "- 播放更快：换集基本秒开，下一集提前准备好\n- 新增「安装到 Apple TV」：手机直接给 Apple TV 装短剧之家，快到期时提醒续签\n- 播放设置新增「调试信息」开关，方便反馈问题\n- 修复横屏左侧一条竖线、弹幕突然蹦出来、竖屏看横屏片被拉变形\n"
     }
   ]
 }
