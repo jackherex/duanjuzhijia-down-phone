@@ -1,13 +1,13 @@
 {
-  "version": "4.5.12+153",
-  "versionName": "4.5.12",
-  "build": 153,
-  "versionCode": 42512,
+  "version": "4.6.14+173",
+  "versionName": "4.6.14",
+  "build": 173,
+  "versionCode": 42614,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-01T04:54:23Z",
-  "notes": "**测试版（Beta）—— 开了「接收测试版」的用户才能收到**\n\n## 新增：离线模式\n\n设置 → 用户与下载 → **离线模式**。\n\n断网时首页和详情页都是空的（它们靠接口），以前只能去「下载管理」里一集一集翻。\n现在有独立的离线片库：\n\n- **列表**：按剧分组，显示封面、剧名、「已下载 N 集 · 看到第 X 集（剩 N 分钟）」，\n  最近看过的排最前面 —— 断网后第一眼就是「接着看那部」\n- **详情页**：封面、标题、已下载集数、上次看到第几集，一个「继续播放」按钮，\n  下面只列**已下载**的分集（上次那集高亮）\n- **播放**：只走本地文件，不会联网解析地址\n- **WebDAV**：进入离线模式时会自动同步一次，有网就把别的设备看的进度拉下来\n\n## 两个已知限制\n\n1. **进度只记「每部剧最后一次」**，没有逐集进度 —— 分集列表只能标出「上次看到第几集」。\n2. **海报依赖之前缓存过**（封面缓存 30 天）。没缓存过的剧显示剧名占位。\n\n## 请重点帮我们试\n\n1. 断网后进离线模式，能不能看到已下载的剧和上次的位置\n2. 点「继续播放」能不能直接从上次那集接着放\n3. 换一部没看过的剧，能不能从第一集开始\n4. 恢复网络后回设置页看一眼，进度有没有被 WebDAV 同步走\n\n## 说明\n\n- 这是**测试版**，正式版仍是 4.5.11+152。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.5.12-153-beta",
+  "publishedAt": "2026-11-15T05:09:13Z",
+  "notes": "- 只有新编码（ByteVC2）的剧集现在也能播（手机先自动转换，第一次打开会多等一会儿）\n- 投屏到电视盒子和 AirPlay 时遇到新编码剧集，也会先在手机上转换好再投\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.14-173-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.5.12+153-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.12-153-beta/duanjuzhijia2-4.5.12%2B153-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.14+173-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.12-153-beta/duanjuzhijia2-4.5.12%2B153-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.12-153-beta/duanjuzhijia2-4.5.12%2B153-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.12-153-beta/duanjuzhijia2-4.5.12%2B153-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.5.12-153-beta/duanjuzhijia2-4.5.12%2B153-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk"
       ],
-      "size": 36250570,
-      "sha256": "37e8140ee9b32906515e3ee10df05c2f106e0f09ef0af714252c49ab9dc6e87a",
-      "notes": "**测试版（Beta）—— 开了「接收测试版」的用户才能收到**\n\n## 新增：离线模式\n\n设置 → 用户与下载 → **离线模式**。\n\n断网时首页和详情页都是空的（它们靠接口），以前只能去「下载管理」里一集一集翻。\n现在有独立的离线片库：\n\n- **列表**：按剧分组，显示封面、剧名、「已下载 N 集 · 看到第 X 集（剩 N 分钟）」，\n  最近看过的排最前面 —— 断网后第一眼就是「接着看那部」\n- **详情页**：封面、标题、已下载集数、上次看到第几集，一个「继续播放」按钮，\n  下面只列**已下载**的分集（上次那集高亮）\n- **播放**：只走本地文件，不会联网解析地址\n- **WebDAV**：进入离线模式时会自动同步一次，有网就把别的设备看的进度拉下来\n\n## 两个已知限制\n\n1. **进度只记「每部剧最后一次」**，没有逐集进度 —— 分集列表只能标出「上次看到第几集」。\n2. **海报依赖之前缓存过**（封面缓存 30 天）。没缓存过的剧显示剧名占位。\n\n## 请重点帮我们试\n\n1. 断网后进离线模式，能不能看到已下载的剧和上次的位置\n2. 点「继续播放」能不能直接从上次那集接着放\n3. 换一部没看过的剧，能不能从第一集开始\n4. 恢复网络后回设置页看一眼，进度有没有被 WebDAV 同步走\n\n## 说明\n\n- 这是**测试版**，正式版仍是 4.5.11+152。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
+      "size": 48384754,
+      "sha256": "c01b4ff13a97a4cd889a48e331bf4052b525e0c5b8208cbab9705013f3b6db21",
+      "notes": "- 只有新编码（ByteVC2）的剧集现在也能播（手机先自动转换，第一次打开会多等一会儿）\n- 投屏到电视盒子和 AirPlay 时遇到新编码剧集，也会先在手机上转换好再投\n"
     }
   ]
 }
