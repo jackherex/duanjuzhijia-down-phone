@@ -30,6 +30,21 @@
       "size": 48392102,
       "sha256": "f8fb37044f32fcb8eaf34555098f2dcee285a996534af891165a442a18b3331c",
       "notes": "- 只有新编码（ByteVC2）的剧集现在也能播，投屏到电视盒子和 AirPlay 也行\n- 详情页预加载更快：点播放基本秒开，从中间续播也一样；播放键旁的小闪电变黄就是准备好了\n- 设置里新增「详情页预加载」开关（默认开）\n"
+    },
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "ios",
+      "name": "duanjuzhijia2-4.6.11+170-ios-unsigned.ipa",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.11-170/duanjuzhijia2-4.6.11%2B170-ios-unsigned.ipa"
+      ],
+      "size": 39793243,
+      "sha256": "499503cabd1dbdc798dcdf8c385c59ef7d5c7063c4c03c3cae45906f20a3ae9a",
+      "notes": "- 新增「推送到短剧之家投屏端」：播放页「推送到其他设备」里多了一项，给老电视盒子用，连播、弹幕表情、远程拖进度都支持（盒子端投屏 App 即将发布）\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
     }
   ]
 }
