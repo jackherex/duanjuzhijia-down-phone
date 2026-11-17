@@ -1,13 +1,13 @@
 {
-  "version": "4.6.22+190",
-  "versionName": "4.6.22",
-  "build": 190,
-  "versionCode": 42622,
+  "version": "4.6.23+192",
+  "versionName": "4.6.23",
+  "build": 192,
+  "versionCode": 42623,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-16T13:55:42Z",
-  "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.22-190",
+  "publishedAt": "2026-11-17T02:39:32Z",
+  "notes": "- 新增：首页「刷一刷」，上下滑动刷剧，可收藏、点赞、看完整剧集（内测功能，可能存在一些小问题）\n- 新增：评论支持回复\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.23-192",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.22+190-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.23+192-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-arm64-v8a.apk"
       ],
-      "size": 48433942,
-      "sha256": "23f4e3c9adac4809599b0113463c735b10b352429d2d5051fccd11dfc5a61ab8",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
-    },
-    {
-      "edition": "duanjuzhijia2",
-      "abi": "ios",
-      "name": "duanjuzhijia2-4.6.22+190-ios-unsigned.ipa",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-      "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa"
-      ],
-      "size": 39871681,
-      "sha256": "5c6340b78a5745049e480c25ac587ecd2863e0e0bea6a5695745e86599ae3f66",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
+      "size": 48508702,
+      "sha256": "d3c8ad8d00aa7fca5d9c6352fc8b75f4eb3204b56db03513502e6bc16ecd0ae6",
+      "notes": "- 新增：首页「刷一刷」，上下滑动刷剧，可收藏、点赞、看完整剧集（内测功能，可能存在一些小问题）\n- 新增：评论支持回复\n"
     }
   ]
 }
