@@ -1,13 +1,13 @@
 {
-  "version": "4.6.14+173",
-  "versionName": "4.6.14",
-  "build": 173,
-  "versionCode": 42614,
+  "version": "4.6.33+202",
+  "versionName": "4.6.33",
+  "build": 202,
+  "versionCode": 42633,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-15T05:09:13Z",
-  "notes": "- 只有新编码（ByteVC2）的剧集现在也能播（手机先自动转换，第一次打开会多等一会儿）\n- 投屏到电视盒子和 AirPlay 时遇到新编码剧集，也会先在手机上转换好再投\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.14-173-beta",
+  "publishedAt": "2026-11-20T08:20:41Z",
+  "notes": "- 修复：详情页等处的按钮（立即播放、追剧、查看剧评等）第一次点没反应、要点两次才行的问题\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.33-202-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.14+173-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.33+202-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.14-173-beta/duanjuzhijia2-4.6.14%2B173-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk"
       ],
-      "size": 48384754,
-      "sha256": "c01b4ff13a97a4cd889a48e331bf4052b525e0c5b8208cbab9705013f3b6db21",
-      "notes": "- 只有新编码（ByteVC2）的剧集现在也能播（手机先自动转换，第一次打开会多等一会儿）\n- 投屏到电视盒子和 AirPlay 时遇到新编码剧集，也会先在手机上转换好再投\n"
+      "size": 48594750,
+      "sha256": "ce5cccba0ec622c17e93d99c5e612ea6d0c4d645b4869fb7a8650443a33053cc",
+      "notes": "- 修复：详情页等处的按钮（立即播放、追剧、查看剧评等）第一次点没反应、要点两次才行的问题\n"
     }
   ]
 }
