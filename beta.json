@@ -1,13 +1,13 @@
 {
-  "version": "4.6.33+202",
-  "versionName": "4.6.33",
-  "build": 202,
-  "versionCode": 42633,
+  "version": "4.6.34+203",
+  "versionName": "4.6.34",
+  "build": 203,
+  "versionCode": 42634,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-20T08:20:41Z",
-  "notes": "- 修复：详情页等处的按钮（立即播放、追剧、查看剧评等）第一次点没反应、要点两次才行的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.33-202-beta",
+  "publishedAt": "2026-11-21T05:25:57Z",
+  "notes": "- 修复：排行榜、追剧、最近观看、设置、搜索结果页按返回键直接退出软件，现在先退回首页\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成\n- 新增：账号页「扫码登录其他设备」，把红果账号登录到电视、电脑\n- 优化：查全季优先使用红果官方数据\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.34-203-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.33+202-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.34+203-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.34-203-beta/duanjuzhijia2-4.6.34%2B203-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.33-202-beta/duanjuzhijia2-4.6.33%2B202-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.34-203-beta/duanjuzhijia2-4.6.34%2B203-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.34-203-beta/duanjuzhijia2-4.6.34%2B203-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.34-203-beta/duanjuzhijia2-4.6.34%2B203-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.34-203-beta/duanjuzhijia2-4.6.34%2B203-arm64-v8a.apk"
       ],
-      "size": 48594750,
-      "sha256": "ce5cccba0ec622c17e93d99c5e612ea6d0c4d645b4869fb7a8650443a33053cc",
-      "notes": "- 修复：详情页等处的按钮（立即播放、追剧、查看剧评等）第一次点没反应、要点两次才行的问题\n"
+      "size": 48659390,
+      "sha256": "28dca2362cece3b9b41cd4a32f39c991ea6cac84f29e6a6b5770fb4f782909f4",
+      "notes": "- 修复：排行榜、追剧、最近观看、设置、搜索结果页按返回键直接退出软件，现在先退回首页\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成\n- 新增：账号页「扫码登录其他设备」，把红果账号登录到电视、电脑\n- 优化：查全季优先使用红果官方数据\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
