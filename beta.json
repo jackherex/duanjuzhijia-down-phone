@@ -5,7 +5,7 @@
   "versionCode": 42635,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-21T15:16:53Z",
+  "publishedAt": "2026-11-21T15:17:23Z",
   "notes": "- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：下载遇到只有新编码的集，下载时自动转成通用格式，离线可播\n- 新增：详情页选集里，已下载的集打勾\n- 优化：播放内核可在播放设置里切回内置播放器\n> 测试版，正式版用户不受影响\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.35-205-beta",
   "gate": {
