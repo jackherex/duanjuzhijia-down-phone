@@ -9,8 +9,8 @@
   "notes": "- 新增：适配平板，横屏也是手机版的样式；选集一页 60 集，设置、排行榜、详情页横屏分栏\n- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成；账号页可扫码把账号登录到电视、电脑\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：查全季不再显示待上线的季，「已看完」按官方系列分组，返回键不再直接退出软件\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.44-223",
   "gate": {
-    "salt": "djzj-2115cfea85b3",
-    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
+    "salt": "djzj-2285498e2ed7",
+    "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
     "iterations": 2000,
     "group": "https://t.me/duanjuzhijia",
     "hint": "4 位数字"
