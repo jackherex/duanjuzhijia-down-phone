@@ -1,13 +1,13 @@
 {
-  "version": "4.6.35+206",
+  "version": "4.6.35+214",
   "versionName": "4.6.35",
-  "build": 206,
+  "build": 214,
   "versionCode": 42635,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-22T02:15:11Z",
-  "notes": "- 优化：查全季不再显示待上线的季，「预约第 N 季」也更准\n- 优化：「已看完」按红果官方同系列分组，不再把同一个系列拆成多张卡\n- 新增：默认使用系统解码器直出播放，已下载的剧也一样，连播无缝切集\n- 新增：下载遇到只有新编码的集，下载时自动转成通用格式，离线可播\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.35-206-beta",
+  "publishedAt": "2026-11-22T10:49:32Z",
+  "notes": "- 优化：封面加载更快，快速滑动不再卡顿；首页轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标动画\n- 修复：封面一直转圈或显示「重试」的问题\n- 修复：系统解码器直出播放时，弹幕每隔几秒卡一下\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.35-214-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.35+206-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-206-beta/duanjuzhijia2-4.6.35%2B206-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.35+214-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-214-beta/duanjuzhijia2-4.6.35%2B214-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-206-beta/duanjuzhijia2-4.6.35%2B206-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-206-beta/duanjuzhijia2-4.6.35%2B206-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-206-beta/duanjuzhijia2-4.6.35%2B206-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-206-beta/duanjuzhijia2-4.6.35%2B206-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-214-beta/duanjuzhijia2-4.6.35%2B214-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-214-beta/duanjuzhijia2-4.6.35%2B214-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-214-beta/duanjuzhijia2-4.6.35%2B214-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.35-214-beta/duanjuzhijia2-4.6.35%2B214-arm64-v8a.apk"
       ],
-      "size": 48672426,
-      "sha256": "ec784dc54caba43fb6ebc05dc82a3f3edd02773eff9ba9e8a7eeda315c7492ac",
-      "notes": "- 优化：查全季不再显示待上线的季，「预约第 N 季」也更准\n- 优化：「已看完」按红果官方同系列分组，不再把同一个系列拆成多张卡\n- 新增：默认使用系统解码器直出播放，已下载的剧也一样，连播无缝切集\n- 新增：下载遇到只有新编码的集，下载时自动转成通用格式，离线可播\n> 测试版，正式版用户不受影响\n"
+      "size": 48700871,
+      "sha256": "4b695ea522632f208b4ef47205eb810c1152903e6fb3fa659c09d93d4b97c110",
+      "notes": "- 优化：封面加载更快，快速滑动不再卡顿；首页轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标动画\n- 修复：封面一直转圈或显示「重试」的问题\n- 修复：系统解码器直出播放时，弹幕每隔几秒卡一下\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
