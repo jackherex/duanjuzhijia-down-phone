@@ -1,13 +1,13 @@
 {
-  "version": "4.6.32+201",
-  "versionName": "4.6.32",
-  "build": 201,
-  "versionCode": 42632,
+  "version": "4.6.44+223",
+  "versionName": "4.6.44",
+  "build": 223,
+  "versionCode": 42644,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-20T02:49:37Z",
-  "notes": "- 新增：播放器页加了评论按钮，刷一刷评论改成半屏，评论里的表情能正常显示\n- 新增：第一次进播放页会教你左边调亮度、右边调音量\n- 优化：刷一刷（内测功能，可能有小问题）进入更快，重启后不再总是同一部\n- 优化：最近观看改成列表，新增「红果同步」入口\n- 修复：查全季认不出「一季 / 二季」写法、预约下一季状态不对、首页背景首次发黑等问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.32-201",
+  "publishedAt": "2026-11-22T13:20:37Z",
+  "notes": "- 新增：适配平板，横屏也是手机版的样式；选集一页 60 集，设置、排行榜、详情页横屏分栏\n- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成；账号页可扫码把账号登录到电视、电脑\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：查全季不再显示待上线的季，「已看完」按官方系列分组，返回键不再直接退出软件\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.44-223",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.32+201-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.32-201/duanjuzhijia2-4.6.32%2B201-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.44+223-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.32-201/duanjuzhijia2-4.6.32%2B201-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.32-201/duanjuzhijia2-4.6.32%2B201-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.32-201/duanjuzhijia2-4.6.32%2B201-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.32-201/duanjuzhijia2-4.6.32%2B201-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk"
       ],
-      "size": 48594698,
-      "sha256": "835f2fe0c4857318557cc2fa057f0b858b8ba8e2caf8310d078f66eea1beaa00",
-      "notes": "- 新增：播放器页加了评论按钮，刷一刷评论改成半屏，评论里的表情能正常显示\n- 新增：第一次进播放页会教你左边调亮度、右边调音量\n- 优化：刷一刷（内测功能，可能有小问题）进入更快，重启后不再总是同一部\n- 优化：最近观看改成列表，新增「红果同步」入口\n- 修复：查全季认不出「一季 / 二季」写法、预约下一季状态不对、首页背景首次发黑等问题\n"
+      "size": 48712143,
+      "sha256": "dc95797c73d0952a241165d119986ac594a621a22c783851afb64e6958dd4d78",
+      "notes": "- 新增：适配平板，横屏也是手机版的样式；选集一页 60 集，设置、排行榜、详情页横屏分栏\n- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成；账号页可扫码把账号登录到电视、电脑\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：查全季不再显示待上线的季，「已看完」按官方系列分组，返回键不再直接退出软件\n"
     }
   ]
 }
