@@ -1,13 +1,13 @@
 {
-  "version": "4.6.45+224",
-  "versionName": "4.6.45",
-  "build": 224,
-  "versionCode": 40645,
+  "version": "4.6.46+225",
+  "versionName": "4.6.46",
+  "build": 225,
+  "versionCode": 40646,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-23T02:38:18Z",
-  "notes": "## 手机版 4.6.45+224 Beta\n\n- 新增：**AI 语音找剧与播控助手**（支持小智官方云端 `xiaozhi.me` 设备绑定与 `ESP BOX 3` 标识上报）\n- 新增：微信式长按说话、连续通话「打电话」模式，以及文字指令找剧与封面结果卡片直接点播\n- 新增：完整 5 步配对图文教程与后台自动检测激活状态（绑定后切回即自动连接）\n- 优化：直接区分题材找剧（如“科幻”）与总热播榜推荐，并净化回复气泡中的工具调用残留标记\n- 修复：点击重新连接后状态停留在「正在连接小智」的问题",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.45-224-beta",
+  "publishedAt": "2026-11-23T03:09:33Z",
+  "notes": "手机版 4.6.46+225 Beta\n\n- 新增：AI 语音找剧与播控助手（支持小智官方云端 xiaozhi.me 绑定，上报设备识别为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季并显示待上线新季\n- 新增：微信式长按说话、连续通话「打电话」模式、完整 5 步配对教程与后台自动检测激活\n- 修复：保持与历史包一致的签名证书，支持直接覆盖升级；同时修复重新连接状态卡住及按题材找剧偏移问题",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.46-225-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.45+224-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.45-224-beta/duanjuzhijia2-4.6.45%2B224-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.46+225-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.46-225-beta/duanjuzhijia2-4.6.46%2B225-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.45-224-beta/duanjuzhijia2-4.6.45%2B224-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.45-224-beta/duanjuzhijia2-4.6.45%2B224-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.45-224-beta/duanjuzhijia2-4.6.45%2B224-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.45-224-beta/duanjuzhijia2-4.6.45%2B224-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.46-225-beta/duanjuzhijia2-4.6.46%2B225-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.46-225-beta/duanjuzhijia2-4.6.46%2B225-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.46-225-beta/duanjuzhijia2-4.6.46%2B225-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.46-225-beta/duanjuzhijia2-4.6.46%2B225-arm64-v8a.apk"
       ],
-      "size": 48940487,
-      "sha256": "73bf7e200282ea70537cb61903109c5a5bde988a0559daa926c30ec25b0147ca",
-      "notes": "## 手机版 4.6.45+224 Beta\n\n- 新增：**AI 语音找剧与播控助手**（支持小智官方云端 `xiaozhi.me` 设备绑定与 `ESP BOX 3` 标识上报）\n- 新增：微信式长按说话、连续通话「打电话」模式，以及文字指令找剧与封面结果卡片直接点播\n- 新增：完整 5 步配对图文教程与后台自动检测激活状态（绑定后切回即自动连接）\n- 优化：直接区分题材找剧（如“科幻”）与总热播榜推荐，并净化回复气泡中的工具调用残留标记\n- 修复：点击重新连接后状态停留在「正在连接小智」的问题"
+      "size": 48945767,
+      "sha256": "60975a224a41001b3b4b50842fff9db797d2e88205b53b74bb53a99496ef96e7",
+      "notes": "手机版 4.6.46+225 Beta\n\n- 新增：AI 语音找剧与播控助手（支持小智官方云端 xiaozhi.me 绑定，上报设备识别为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季并显示待上线新季\n- 新增：微信式长按说话、连续通话「打电话」模式、完整 5 步配对教程与后台自动检测激活\n- 修复：保持与历史包一致的签名证书，支持直接覆盖升级；同时修复重新连接状态卡住及按题材找剧偏移问题"
     }
   ]
 }
