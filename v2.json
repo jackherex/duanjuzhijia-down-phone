@@ -1,13 +1,13 @@
 {
-  "version": "4.6.44+223",
-  "versionName": "4.6.44",
-  "build": 223,
-  "versionCode": 42644,
+  "version": "4.6.66+245",
+  "versionName": "4.6.66",
+  "build": 245,
+  "versionCode": 42666,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-22T13:20:37Z",
-  "notes": "- 新增：适配平板，横屏也是手机版的样式；选集一页 60 集，设置、排行榜、详情页横屏分栏\n- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成；账号页可扫码把账号登录到电视、电脑\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：查全季不再显示待上线的季，「已看完」按官方系列分组，返回键不再直接退出软件\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.44-223",
+  "publishedAt": "2026-11-24T10:05:04Z",
+  "notes": "修复播放接口\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.66-245",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.44+223-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.66+245-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.66-245/duanjuzhijia2-4.6.66%2B245-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.44-223/duanjuzhijia2-4.6.44%2B223-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.66-245/duanjuzhijia2-4.6.66%2B245-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.66-245/duanjuzhijia2-4.6.66%2B245-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.66-245/duanjuzhijia2-4.6.66%2B245-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.66-245/duanjuzhijia2-4.6.66%2B245-arm64-v8a.apk"
       ],
-      "size": 48712143,
-      "sha256": "dc95797c73d0952a241165d119986ac594a621a22c783851afb64e6958dd4d78",
-      "notes": "- 新增：适配平板，横屏也是手机版的样式；选集一页 60 集，设置、排行榜、详情页横屏分栏\n- 新增：默认使用系统解码器直出播放（更流畅省电），已下载的剧也一样，连播无缝切集\n- 新增：手机号登录遇到滑块验证时，可以直接在应用里完成；账号页可扫码把账号登录到电视、电脑\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：查全季不再显示待上线的季，「已看完」按官方系列分组，返回键不再直接退出软件\n"
+      "size": 51818139,
+      "sha256": "c6eee6bd0a64191d0a7cdabdc42a448a37709610d5eb238b68c477ebed254265",
+      "notes": "修复播放接口\n"
     }
   ]
 }
