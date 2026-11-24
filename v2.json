@@ -1,13 +1,13 @@
 {
-  "version": "4.6.70+249",
-  "versionName": "4.6.70",
-  "build": 249,
-  "versionCode": 42670,
+  "version": "4.6.71+250",
+  "versionName": "4.6.71",
+  "build": 250,
+  "versionCode": 42671,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T12:25:32Z",
-  "notes": "修复播放失效\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.70-249",
+  "publishedAt": "2026-11-24T12:56:14Z",
+  "notes": "再次修复播放接口失效（再失效就倒闭吧）",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.71-250",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.70+249-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.70-249/duanjuzhijia2-4.6.70%2B249-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.71+250-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.70-249/duanjuzhijia2-4.6.70%2B249-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.70-249/duanjuzhijia2-4.6.70%2B249-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.70-249/duanjuzhijia2-4.6.70%2B249-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.70-249/duanjuzhijia2-4.6.70%2B249-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk"
       ],
-      "size": 51826839,
-      "sha256": "94c37a287e3e5bc2ccf84f1fd734feb9ef38c8110e566c6723e8b4a0f9d99274",
-      "notes": "修复播放失效\n"
+      "size": 51835563,
+      "sha256": "7ef1bc6cfa63c925408741bb5d16802d4daed09363a6bb8760c1f83e167e4c7e",
+      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
     }
   ]
 }
