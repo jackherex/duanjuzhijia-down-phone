@@ -1,13 +1,13 @@
 {
-  "version": "4.6.71+250",
-  "versionName": "4.6.71",
-  "build": 250,
-  "versionCode": 42671,
+  "version": "4.6.87+266",
+  "versionName": "4.6.87",
+  "build": 266,
+  "versionCode": 40687,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T12:56:14Z",
-  "notes": "再次修复播放接口失效（再失效就倒闭吧）",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.71-250",
+  "publishedAt": "2026-11-25T05:48:32Z",
+  "notes": "- 修复：播放接口失效与红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 新增：小智 AI 语音找剧助手（支持按住说话、打电话持续对话、云端搜剧与语音播控）\n- 优化：首页与各页签切换流畅度全面提升，切回首页不再卡顿\n- 优化：WebDAV 云端同步提速并新增同步设备管理，优化封面与目录缓存策略\n- 修复：弹幕渲染掉帧卡顿、平板横屏适配与红果登录滑块验证",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.87-266",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.71+250-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.87+266-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.87-266/duanjuzhijia2-4.6.87%2B266-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.71-250/duanjuzhijia2-4.6.71%2B250-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.87-266/duanjuzhijia2-4.6.87%2B266-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.87-266/duanjuzhijia2-4.6.87%2B266-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.87-266/duanjuzhijia2-4.6.87%2B266-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.87-266/duanjuzhijia2-4.6.87%2B266-arm64-v8a.apk"
       ],
-      "size": 51835563,
-      "sha256": "7ef1bc6cfa63c925408741bb5d16802d4daed09363a6bb8760c1f83e167e4c7e",
-      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
+      "size": 52463026,
+      "sha256": "ffb4922233e14cb23304a5db308404f3f5eea3f2c936233003cd0263112703a3",
+      "notes": "- 修复：播放接口失效与红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 新增：小智 AI 语音找剧助手（支持按住说话、打电话持续对话、云端搜剧与语音播控）\n- 优化：首页与各页签切换流畅度全面提升，切回首页不再卡顿\n- 优化：WebDAV 云端同步提速并新增同步设备管理，优化封面与目录缓存策略\n- 修复：弹幕渲染掉帧卡顿、平板横屏适配与红果登录滑块验证"
     }
   ]
 }
