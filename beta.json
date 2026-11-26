@@ -1,13 +1,14 @@
 {
-  "version": "4.6.58+237",
-  "versionName": "4.6.58",
-  "build": 237,
-  "versionCode": 40658,
+  "version": "4.6.92+271",
+  "versionName": "4.6.92",
+  "build": 271,
+  "versionCode": 40692,
+  "beta": true,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-23T12:59:15Z",
-  "notes": "- 新增：AI 语音助手全面升级为「AI 短剧助手」，支持多轮上下文追问、热榜/猜你喜欢/新剧查询、继续观看直达、选集与倍速/弹幕/跳过片头片尾等智能播控，搜索多季系列剧自动补全全部季\n- 优化：长时间未说话不再突然播报“我先去休息啦，晚安”打扰观影，关闭 AI 语音弹窗后自动断开会话\n- 修复：优化弹幕渲染缓存与本地播放进度节流，解决手机端看剧时弹幕每隔 5~6 秒掉帧卡顿一次的问题\n- 修复：保持与历史包一致的签名证书，支持直接覆盖升级；同时修复重新连接状态卡住及按题材找剧偏移问题\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.58-237-beta",
+  "publishedAt": "2026-11-26T14:21:51Z",
+  "notes": "- 新增：下载页支持「播放合并版」与续播记忆，合集卡片新增「已合并」角标\n- 新增：下载并发数支持 1~8 档自定义（下载页快捷切换 + 设置页同步）\n- 新增：「联系作者」与赞助用户在线客服聊天（支持发图、一键附带诊断日志、撤回及系统通知栏未读提醒），移除冗余「离线模式」页\n- 优化：合并视频启用硬件加速（MediaCodec / VideoToolbox）并支持多任务分级并发与三段快速抽检\n- 修复：ExoPlayer 播放本地合并 .mkv 报「本地成品读取失败」、已下载剧集从历史/详情进入未预加载下一集的问题\n- 同步：红果三域名轮换与 V5 / ByteVC2 播放线路优化\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.92-271-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +20,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.58+237-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.58-237-beta/duanjuzhijia2-4.6.58%2B237-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.92+271-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.58-237-beta/duanjuzhijia2-4.6.58%2B237-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.58-237-beta/duanjuzhijia2-4.6.58%2B237-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.58-237-beta/duanjuzhijia2-4.6.58%2B237-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.58-237-beta/duanjuzhijia2-4.6.58%2B237-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-arm64-v8a.apk"
       ],
-      "size": 51778323,
-      "sha256": "8bb4bb5dfb3e9fefc8c0b4c00a1af5e97b0e3f8f3e9472fe0e2f423bbbab4569",
-      "notes": "- 新增：AI 语音助手全面升级为「AI 短剧助手」，支持多轮上下文追问、热榜/猜你喜欢/新剧查询、继续观看直达、选集与倍速/弹幕/跳过片头片尾等智能播控，搜索多季系列剧自动补全全部季\n- 优化：长时间未说话不再突然播报“我先去休息啦，晚安”打扰观影，关闭 AI 语音弹窗后自动断开会话\n- 修复：优化弹幕渲染缓存与本地播放进度节流，解决手机端看剧时弹幕每隔 5~6 秒掉帧卡顿一次的问题\n- 修复：保持与历史包一致的签名证书，支持直接覆盖升级；同时修复重新连接状态卡住及按题材找剧偏移问题\n> 测试版，正式版用户不受影响\n"
+      "size": 52592490,
+      "sha256": "9e7448606ed02ee733adbc42de9bd3ab1d8480c6fce24264baa7e6fc9a623c28",
+      "notes": "- 新增：下载页支持「播放合并版」与续播记忆，合集卡片新增「已合并」角标\n- 新增：下载并发数支持 1~8 档自定义（下载页快捷切换 + 设置页同步）\n- 新增：「联系作者」与赞助用户在线客服聊天（支持发图、一键附带诊断日志、撤回及系统通知栏未读提醒），移除冗余「离线模式」页\n- 优化：合并视频启用硬件加速（MediaCodec / VideoToolbox）并支持多任务分级并发与三段快速抽检\n- 修复：ExoPlayer 播放本地合并 .mkv 报「本地成品读取失败」、已下载剧集从历史/详情进入未预加载下一集的问题\n- 同步：红果三域名轮换与 V5 / ByteVC2 播放线路优化\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
