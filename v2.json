@@ -1,13 +1,13 @@
 {
-  "version": "4.6.91+270",
-  "versionName": "4.6.91",
-  "build": 270,
-  "versionCode": 40691,
+  "version": "4.6.107+286",
+  "versionName": "4.6.107",
+  "build": 286,
+  "versionCode": 40707,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-25T12:40:43Z",
-  "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：投屏端支持未来多集预加载与秒切衔接，播放与切集更流畅\n- 优化：云预约网络稳定性与自动重试体验",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.91-270",
+  "publishedAt": "2026-11-27T15:00:25Z",
+  "notes": "- 全新设计：红果账号页、观看统计页、播放偏好页、手势与操作页、下载设置页与备份管理页全面重构美化，深浅色模式统一适配\n- 优化：设置页结构重组，WebDAV 同步与安装到 Apple TV 移至「连接」分组，底部快捷入口升级为独立玻璃卡片\n- 优化：开屏动画升级为 Android 原生硬件视频直出，冷启动更流畅顺滑\n- 优化：观看统计与 WebDAV 同步自动识别真实设备型号，且仅统计红果站源观看记录\n- 优化：分类列表卡片间距与排版细节调整",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.107-286",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.91+270-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.107+286-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk"
       ],
-      "size": 52493766,
-      "sha256": "237960c1732ae1cd1987e1ebd06df9a598ea50d6cbe8be33d44ce4528f5c2581",
-      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：投屏端支持未来多集预加载与秒切衔接，播放与切集更流畅\n- 优化：云预约网络稳定性与自动重试体验"
+      "size": 52686182,
+      "sha256": "338e347a72cf66e950b505f78cf239d0544219ad54b8c93fa9e5824f2e4905ba",
+      "notes": "- 全新设计：红果账号页、观看统计页、播放偏好页、手势与操作页、下载设置页与备份管理页全面重构美化，深浅色模式统一适配\n- 优化：设置页结构重组，WebDAV 同步与安装到 Apple TV 移至「连接」分组，底部快捷入口升级为独立玻璃卡片\n- 优化：开屏动画升级为 Android 原生硬件视频直出，冷启动更流畅顺滑\n- 优化：观看统计与 WebDAV 同步自动识别真实设备型号，且仅统计红果站源观看记录\n- 优化：分类列表卡片间距与排版细节调整"
     }
   ]
 }
