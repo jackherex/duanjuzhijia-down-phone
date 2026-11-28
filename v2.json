@@ -1,13 +1,13 @@
 {
-  "version": "4.6.107+286",
-  "versionName": "4.6.107",
-  "build": 286,
-  "versionCode": 40707,
+  "version": "4.6.115+294",
+  "versionName": "4.6.115",
+  "build": 294,
+  "versionCode": 40715,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-27T15:00:25Z",
-  "notes": "- 全新设计：红果账号页、观看统计页、播放偏好页、手势与操作页、下载设置页与备份管理页全面重构美化，深浅色模式统一适配\n- 优化：设置页结构重组，WebDAV 同步与安装到 Apple TV 移至「连接」分组，底部快捷入口升级为独立玻璃卡片\n- 优化：开屏动画升级为 Android 原生硬件视频直出，冷启动更流畅顺滑\n- 优化：观看统计与 WebDAV 同步自动识别真实设备型号，且仅统计红果站源观看记录\n- 优化：分类列表卡片间距与排版细节调整",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.107-286",
+  "publishedAt": "2026-11-28T09:30:55Z",
+  "notes": "- 全新设计：「已看完」与「关于短剧之家」页面重构升级，已看完支持按系列折叠/展开查看总季数与已看进度，查全季逻辑与详情页完全对齐\n- 新增：设置页「首页继续观看」支持切换追剧 / 最近观看 / 关闭（WebDAV 跨端同步）；预约页新增「本地自动检测」开关与红果账户预约上线提醒\n- 新增：锁屏页与密码弹窗支持通过官方 TG 群 4 位更新密钥重置密码（保留全部数据）；支持自动清理旧版安装包\n- 修复：红果账号旧登录态风控不再连累匿名播放取流，重置设备 ID 同步清理主力播放设备与域名熔断；修复排行榜翻页后第 10 名起名次重回 1 的问题\n- 修复：发现页热门剧 / 漫剧 / 真人剧 / AI 剧 / 其他推荐跨轨道去重；修复 iOS 播放页手势调亮度无法高于当前系统亮度及横竖屏闪现集数面板的问题\n- 优化：默认主题改为跟随系统，精简设置页与底部各页签顶栏按钮，弹窗选项统一升级为玻璃底部面板",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/tag/v2-app-v4.6.115-294",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,17 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijia2-4.6.107+286-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
+      "name": "duanjuzhijia2-4.6.115+294-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.107-286/duanjuzhijia2-4.6.107%2B286-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-phone/releases/download/v2-app-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-arm64-v8a.apk"
       ],
-      "size": 52686182,
-      "sha256": "338e347a72cf66e950b505f78cf239d0544219ad54b8c93fa9e5824f2e4905ba",
-      "notes": "- 全新设计：红果账号页、观看统计页、播放偏好页、手势与操作页、下载设置页与备份管理页全面重构美化，深浅色模式统一适配\n- 优化：设置页结构重组，WebDAV 同步与安装到 Apple TV 移至「连接」分组，底部快捷入口升级为独立玻璃卡片\n- 优化：开屏动画升级为 Android 原生硬件视频直出，冷启动更流畅顺滑\n- 优化：观看统计与 WebDAV 同步自动识别真实设备型号，且仅统计红果站源观看记录\n- 优化：分类列表卡片间距与排版细节调整"
+      "size": 52721294,
+      "sha256": "6973957bc53b9996e8c5c26eaebf99dd51bee8d178005a2586f416878d408c2c",
+      "notes": "- 全新设计：「已看完」与「关于短剧之家」页面重构升级，已看完支持按系列折叠/展开查看总季数与已看进度，查全季逻辑与详情页完全对齐\n- 新增：设置页「首页继续观看」支持切换追剧 / 最近观看 / 关闭（WebDAV 跨端同步）；预约页新增「本地自动检测」开关与红果账户预约上线提醒\n- 新增：锁屏页与密码弹窗支持通过官方 TG 群 4 位更新密钥重置密码（保留全部数据）；支持自动清理旧版安装包\n- 修复：红果账号旧登录态风控不再连累匿名播放取流，重置设备 ID 同步清理主力播放设备与域名熔断；修复排行榜翻页后第 10 名起名次重回 1 的问题\n- 修复：发现页热门剧 / 漫剧 / 真人剧 / AI 剧 / 其他推荐跨轨道去重；修复 iOS 播放页手势调亮度无法高于当前系统亮度及横竖屏闪现集数面板的问题\n- 优化：默认主题改为跟随系统，精简设置页与底部各页签顶栏按钮，弹窗选项统一升级为玻璃底部面板"
     }
   ]
 }
